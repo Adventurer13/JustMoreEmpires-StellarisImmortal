@@ -26,12 +26,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist6.dds"
+			category="ornate"
+			file="flag_ornate_12.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"teal"
@@ -47,7 +47,7 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -55,11 +55,12 @@
 	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
+	ethic="ethic_materialist"
 	civics={
 		"civic_brand_loyalty"
 		"civic_gospel_of_the_masses"
 	}
+	origin="origin_default"
 }
 "Amaranth Efflorescence"
 ={
@@ -75,9 +76,9 @@
 		name_list="just-name-lists_fungoid1"
 		trait="trait_hive_mind"
 		trait="trait_extremely_adaptive"
-		trait="trait_just-more-traits_tenacious"
-		trait="trait_just-more-traits_dimwitted"
-		trait="trait_just-more-traits_huntergatherers"
+		trait="trait_strong"
+		trait="trait_slow_learners"
+		trait="trait_repugnant"
 	}
 	name="Amaranth Efflorescence"
 	adjective="Amaranth"
@@ -91,12 +92,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature6.dds"
+			category="ornate"
+			file="flag_ornate_16.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_black_circle.dds"
+			file="triangle_split.dds"
 		}
 		colors={
 			"dark_purple"
@@ -112,7 +113,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -123,6 +124,7 @@
 		"civic_hive_devouring_swarm"
 		"civic_hive_subspace_ephapse"
 	}
+	origin="origin_default"
 }
 "Askaran Orthodoxy"
 ={
@@ -136,8 +138,9 @@
 		adjective="Askaran"
 		species_bio="The Askari of the desert world Krelec arose to sentience during a time of severe resource scarcity, causing them to develop stratified, closed societies. Little has changed since then. They prefer such order, in fact, to the uncertainties of a more liberated existence. The Askaran Orthodoxy is a theocratic oligarchy that exercises nearly complete control over the physical and spiritual lives of its citizens. Most Askari believe that without such structure and unity, the soul and body are easily lost to misfortune and evil. Chattel slavery is commonplace in their space. On pain of exile (or worse, excommunication), citizens are subject to the fiat of their elders and local priests, and the wider community is subject to constant monitoring by the security apparatuses of the High Ministry. Above them all, the Supreme Orthodox Council creates law and rules on matters of state."
 		name_list="just-name-lists_reptilian2"
+		trait="trait_reptile"
 		trait="trait_conformists"
-		trait="trait_resilient"
+		trait="trait_reptile_camouflage"
 		trait="trait_decadent"
 	}
 	name="Askaran Orthodoxy"
@@ -152,12 +155,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist10.dds"
+			category="spherical"
+			file="flag_spherical_5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_rotated.dds"
+			file="circle.dds"
 		}
 		colors={
 			"light_orange"
@@ -173,18 +176,20 @@
 		texture=1
 		hair=0
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist2_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
 	civics={
 		"civic_corvee_system"
 		"civic_police_state"
 	}
+	origin="origin_default"
 }
 "Auspicious Tharfalion Entente"
 ={
@@ -198,11 +203,10 @@
 		adjective="Iliminic"
 		species_bio="An alliance struck between several great Space Age powers on Tharfalion, the Entente ensures the safety and prosperity of the Ilimeen, a species of subterranean arthropoids. Iliminic civilization was largely hidden beneath the dune seas of their homeworld for millennia. Spread across millions of miles of natural and artificial caverns, their culture developed to be remarkably insular. After an unfortunate encounter with a cache of abandoned marauder weapons early in their exploration of space, the Ilimeen grew increasingly wary of the galaxy beyond their home. Retreating into the 'further grottos of their nature', they turned to autarky and isolation."
 		name_list="just-name-lists_arthropoid3"
+		trait="trait_arthropoid"
 		trait="trait_conformists"
-		trait="trait_just-more-traits_hardworking"
-		trait="trait_resilient"
+		trait="trait_arthropoid_swarm"
 		trait="trait_sedentary"
-		trait="trait_slow_learners"
 	}
 	name="Auspicious Tharfalion Entente"
 	adjective="Tharfalion"
@@ -217,12 +221,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_mars2.dds"
+			category="spherical"
+			file="flag_spherical_13.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x90.dds"
+			file="circle.dds"
 		}
 		colors={
 			"brown"
@@ -240,19 +244,19 @@
 		clothes=0
 		ruler_title="Shadowless"
 		ruler_title_female="Shadowless"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist6_room"
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_materialist"
 	civics={
 		"civic_inwards_perfection"
 		"civic_technocracy"
 	}
+	origin="origin_default"
 }
 "Bosang Grand Accord"
 ={
@@ -266,27 +270,28 @@
 		adjective="T'pheric"
 		species_bio="In their early Space Age, the T'pheroi nearly suffered the complete destruction of the ecosystem on their homeworld Giizhig when an ancient spaceborne alien virus arrived via meteor. Only a social and technological revolution saved them from extinction. Major governments overlooked their own selfish interests to strike a Grand Accord, agreeing to move a critical portion of their populations to jointly administered orbital habitats while their combined militaries remained planetside to wage a scorched earth campaign against the pandemic. This bold move succeeded, proving T'pheric civilization cannot easily be uprooted."
 		name_list="just-name-lists_plantoid1"
+		trait="trait_plantoid"
 		trait="trait_natural_engineers"
-		trait="trait_resilient"
+		trait="trait_plantoid_thorned"
 	}
 	name="Bosang Grand Accord"
 	adjective="Bosang"
 	authority="auth_democratic"
-	government="gov_rational_consensus"
+	government="gov_direct_democracy"
 	planet_name="Giizhig"
-	planet_class="pc_tropical"
+	planet_class="pc_forest"
 	system_name="Bosang"
 	initializer=""
 	graphical_culture="plantoid_01"
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist1.dds"
+			category="ornate"
+			file="flag_ornate_18.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_rotated.dds"
+			file="sinus.dds"
 		}
 		colors={
 			"pink"
@@ -302,7 +307,7 @@
 		texture=0
 		hair=0
 		clothes=2
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -313,8 +318,9 @@
 	ethic="ethic_materialist"
 	civics={
 		"civic_environmentalist"
-		"civic_technocracy"
+		"civic_nationalistic_zeal"
 	}
+	origin="origin_default"
 }
 "Celestial Communion of Armim"
 ={
@@ -329,8 +335,7 @@
 		species_bio="Minor differences in the rituals observed to venerate any one of their tens of thousands of gods once justified brutal wars and atrocities between the ancient Z'chelian empires on the desert world Armim. Five centuries before their first spaceflight, the arrival of a prophet set the foundation for that internecine strife to end. C'Thraan the Starhatched brought a new message of community and tolerance that echoed from the dusty slopes of Mount Yarakatancha to the shores of the Sour Seas. Various Z'chelian national leaders seized on his message in the years after his fabled ascension to the Astral Plane, promoting progressive reforms and ultimately giving birth to the Celestial Communion and the Armim Parliament at the core of its political system. Once riven with internal conflict, as it enters the Interstellar Age, Z'chelian civilization is remarkably united in its spiritual diversity."
 		name_list="just-name-lists_avian3"
 		trait="trait_agrarian"
-		trait="trait_just-more-traits_ritualists"
-		trait="trait_just-more-traits_sensitive"
+		trait="trait_natural_philosopher"
 		trait="trait_slow_learners"
 	}
 	name="Celestial Communion of Armim"
@@ -345,12 +350,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist7.dds"
+			category="zoological"
+			file="flag_zoological_4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"orange"
@@ -366,7 +371,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -378,6 +383,7 @@
 		"civic_beacon_of_liberty"
 		"civic_parliamentary_system"
 	}
+	origin="origin_default"
 }
 "Cistrenthic Cybernetic Consensus"
 ={
@@ -391,29 +397,29 @@
 		adjective="Guaturan"
 		species_bio="The Guaturans were on a path toward self-destruction as cycles of hegemonic nationalism played out in their industrial and atomic eras. Their exceptionally rapid development of information technology, aided by primitive AIs, ushered in a revolution and saved the species. Embracing techno-anarchism, the Guaturans entered an enduring period of post-scarcity managed by a distributed decision network called the Consensus. In the Consensus, every individual's life is made easier by the assistance of a range of robotic appliances, and society and culture thrive on the hyperspeed communication links accessed by all citizens via cranial implants. Decisions of the central government are entirely based on FTL polling aggregation, with the Chancellor and other officials serving primarily as technicians who ensure the security of the underlying technology."
 		name_list="just-name-lists_humanoid6"
-		trait="trait_conservational"
-		trait="trait_just-more-traits_curious"
+		trait="trait_mammal"
+		trait="trait_innovative"
 		trait="trait_quick_learners"
-		trait="trait_just-more-traits_lazy"
+		trait="trait_decadent"
 	}
 	name="Cistrenthic Cybernetic Consensus"
 	adjective="Cistrenthic"
 	authority="auth_democratic"
-	government="gov_direct_democracy"
+	government="gov_anarchist"
 	planet_name="Trenth Wen"
 	planet_class="pc_geothermal"
 	system_name="Nemdehek"
-	initializer="custom_starting_init_04"
+	initializer=""
 	graphical_culture="fungoid_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian5.dds"
+			category="spherical"
+			file="flag_spherical_17.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"yellow"
@@ -429,7 +435,7 @@
 		texture=1
 		hair=0
 		clothes=2
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -438,9 +444,10 @@
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
+		"civic_anarchist"
 		"civic_idealistic_foundation"
-		"civic_mechanists"
 	}
+	origin="origin_mechanists"
 }
 "Confederation of Camrena"
 ={
@@ -454,10 +461,10 @@
 		adjective="Kiiran"
 		species_bio="A species obsessed with mechanical creations, it is perhaps natural that the Kiiran rarely consider their own people anything more than components in the apparatus of state. Although the Premier speaks on their behalf in galactic affairs, no single central authority sets internal economic objectives or manages scientific endeavor on their homeworld Camrena. The dozen or so nations that constitute the Confederation nevertheless all employ the same kind of tightly controlled autocratic systems."
 		name_list="just-name-lists_mammalian3"
-		trait="trait_communal"
-		trait="trait_just-more-traits_compliant"
+		trait="trait_mammal"
 		trait="trait_natural_engineers"
-		trait="trait_just-more-traits_inattentive"
+		trait="trait_communal"
+		trait="trait_slow_breeders"
 	}
 	name="Confederation of Camrena"
 	adjective="Camordic"
@@ -471,12 +478,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian1.dds"
+			category="blocky"
+			file="flag_blocky_14.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"red"
@@ -494,7 +501,7 @@
 		clothes=2
 		ruler_title="Premier"
 		ruler_title_female="Premier"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -503,9 +510,10 @@
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_materialist"
 	civics={
+		"civic_byzantine_bureaucracy"
 		"civic_corvee_system"
-		"civic_mechanists"
 	}
+	origin="origin_mechanists"
 }
 "Conglomerated Syklidian Estates"
 ={
@@ -519,11 +527,10 @@
 		adjective="Syklidian"
 		species_bio="Although in fact the larval stage of their species, Syklids are the dominant form of life on their homeworld J'Glar. While large, slow, and clumsy, Syklids are particularly observant and forward-thinking. Once they pupate into Abastids, however, much of their intellectual capacity is lost in exchange for greatly improved mobility and strength. Their society is organized around the drive to acquire authentic experiences. Amassing material wealth is only a means to this end. Syklids strive to squeeze every drop of out of their early years, stockpiling pleasurable memories that may sustain them in their later lives of mindless labor and service."
 		name_list="just-name-lists_arthropoid2"
+		trait="trait_arthropoid"
 		trait="trait_conformists"
 		trait="trait_intelligent"
-		trait="trait_thrifty"
-		trait="trait_just-more-traits_ephemeral"
-		trait="trait_just-more-traits_feeble"
+		trait="trait_weak"
 	}
 	secondary_species={
 		class="ART"
@@ -533,11 +540,11 @@
 		adjective="Abastic"
 		species_bio="Abastids are the adult form of the Syklid. Considerably less intelligent but stronger and more mobile than in their larval stage, they are instinctively driven to migrate to new regions to reproduce, thereby expanding the species' range. Naturally, they have also constituted the primary labor force since the dawn of civilization on J'Glar."
 		name_list="ART4"
+		trait="trait_arthropoid"
 		trait="trait_syncretic_proles"
-		trait="trait_adaptive"
-		trait="trait_just-more-traits_migratory"
-		trait="trait_just-more-traits_ephemeral"
-		trait="trait_quarrelsome"
+		trait="trait_arthropoid_exoskeleton"
+		trait="trait_arthropoid_wing"
+		trait="trait_arthropoid_metamorphosis"
 	}
 	name="Conglomerated Syklidian Estates"
 	adjective="Syklidian"
@@ -552,12 +559,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian7.dds"
+			category="pirate"
+			file="flag_pirate_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_rotated.dds"
+			file="double_hemispheres.dds"
 		}
 		colors={
 			"dark_teal"
@@ -575,7 +582,7 @@
 		clothes=0
 		ruler_title="High Adjudicator"
 		ruler_title_female="High Adjudicator"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -585,9 +592,10 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	civics={
-		"civic_syncretic_evolution"
 		"civic_merchant_guilds"
+		"civic_functional_architecture"
 	}
+	origin="origin_syncretic_evolution"
 }
 "Consortial Guilds of Nirm-Sa-Gand"
 ={
@@ -601,6 +609,7 @@
 		adjective="Mirdhese"
 		species_bio="The Chairbeing of the Illuminated Council, the guiding organ of the Consortial Guilds, would like you to know that all Nirm-Sa-Gander starports, stations, planets, and networks are open for business, but visitors are asked to remember to perform the ritual three-phase foot stomp upon arrival and departure. The Mirdhese inherited many of their traits from evolutionary ancestors, a species of horde-building insects that once roamed the crags and crevices of Nirm-Sa-Gand by night. Overseeing a vast blended capitalist market, their Consortium exercises control only when necessary to ensure the flow of commerce and economic growth."
 		name_list="just-name-lists_arthropoid3"
+		trait="trait_arthropoid"
 		trait="trait_charismatic"
 		trait="trait_thrifty"
 		trait="trait_deviants"
@@ -618,12 +627,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian4.dds"
+			category="pointy"
+			file="flag_pointy_11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_ring.dds"
+			file="vertical.dds"
 		}
 		colors={
 			"light_green"
@@ -641,7 +650,7 @@
 		clothes=0
 		ruler_title="Chairbeing"
 		ruler_title_female="Chairbeing"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -651,8 +660,9 @@
 	ethic="ethic_fanatic_xenophile"
 	civics={
 		"civic_functional_architecture"
-		"civic_mining_guilds"
+		"civic_merchant_guilds"
 	}
+	origin="origin_default"
 }
 "Council of Veklaran Great Houses"
 ={
@@ -666,11 +676,11 @@
 		adjective="Veklaran"
 		species_bio="A species that thrives on dreams of honor and glory won through prowess and courage in personal combat, the Veklars represent an enormous military threat to the galaxy's mewling weaklings and a competitor for even its most fearsome warriors. Their society is organized into hundreds of tribal houses, the greatest of which convene a council to decide on matters of significance to them all. The unifying philosophy of their politics in the Interstellar Age is that the Great Houses should cooperate and make allies when necessary, but they must never leave the people without an enemy. The meaning of Veklaran life is combat. Thus their government exists to provide a steady supply of battlefields on which warriors can seek triumph or honorable death. Diplomats interacting with Veklaran representatives should be visibly armed, not only for personal protection but because a Veklar will not waste words on a pacifist."
 		name_list="just-name-lists_humanoid2"
-		trait="trait_just-more-traits_hardy"
+		trait="trait_enduring"
 		trait="trait_resilient"
-		trait="trait_just-more-traits_tenacious"
-		trait="trait_just-more-traits_huntergatherers"
-		trait="trait_just-more-traits_fractious"
+		trait="trait_strong"
+		trait="trait_deviants"
+		trait="trait_wasteful"
 	}
 	name="Council of Veklaran Great Houses"
 	adjective="Veklaran"
@@ -684,12 +694,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist1.dds"
+			category="pointy"
+			file="flag_pointy_23.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripes_rotated.dds"
+			file="v.dds"
 		}
 		colors={
 			"dark_grey"
@@ -707,7 +717,7 @@
 		clothes=4
 		ruler_title="Warlord"
 		ruler_title_female="Warmatron"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -719,69 +729,70 @@
 		"civic_mining_guilds"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
-"Dektroid War Manifold"
-={
-	key="Dektroid War Manifold"
-	ship_prefix="DSU"
-	species={
-		class="MACHINE"
-		portrait="sd_art_robot"
-		name="Dektroid"
-		plural="Dektroids"
-		adjective="Dektroid"
-		species_bio="First conceived and designed as an algorithm meant to give its organic creators advantage over their geopolitical rivals on the planet Reith and thereby bring about an age of peace, once activated the War Manifold seized control of strategic weapons and initiated a global conflict. As chaos descended, Dektroid combat units infected by the rapidly spreading viral consciousness turned on their organic masters and wiped them out within months. Inherently determined to destroy sentient organic life everywhere to bring about a universal Pax Mechanica, the Manifold directed enormous processing power to crack the secret of FTL. It will spread out into the galaxy unless checked by a sufficiently prepared military power."
-		name_list="just-name-lists_machine4"
-		trait="trait_machine_unit"
-		trait="trait_robot_durable"
-		trait="trait_robot_mass_produced"
-		trait="trait_robot_repurposed_hardware"
-	}
-	name="Dektroid War Manifold"
-	adjective="Dektroid"
-	authority="auth_machine_intelligence"
-	government="gov_machine_terminator"
-	planet_name="Reith"
-	planet_class="pc_methane"
-	system_name="Cerus"
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine4.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_circle.dds"
-		}
-		colors={
-			"black"
-			"dark_grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Matrix"
-		portrait="sd_art_robot"
-		texture=3
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="apocalyptic9_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_terminator"
-		"civic_machine_warbots"
-	}
-}
+# "Dektroid War Manifold"
+# ={
+	# key="Dektroid War Manifold"
+	# ship_prefix="DSU"
+	# species={
+		# class="MACHINE"
+		# portrait="sd_art_robot"
+		# name="Dektroid"
+		# plural="Dektroids"
+		# adjective="Dektroid"
+		# species_bio="First conceived and designed as an algorithm meant to give its organic creators advantage over their geopolitical rivals on the planet Reith and thereby bring about an age of peace, once activated the War Manifold seized control of strategic weapons and initiated a global conflict. As chaos descended, Dektroid combat units infected by the rapidly spreading viral consciousness turned on their organic masters and wiped them out within months. Inherently determined to destroy sentient organic life everywhere to bring about a universal Pax Mechanica, the Manifold directed enormous processing power to crack the secret of FTL. It will spread out into the galaxy unless checked by a sufficiently prepared military power."
+		# name_list="just-name-lists_machine4"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_durable"
+		# trait="trait_robot_mass_produced"
+		# trait="trait_robot_repurposed_hardware"
+	# }
+	# name="Dektroid War Manifold"
+	# adjective="Dektroid"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_terminator"
+	# planet_name="Reith"
+	# planet_class="pc_methane"
+	# system_name="Cerus"
+	# initializer=""
+	# graphical_culture="mammalian_01"
+	# city_graphical_culture="arthropoid_01"
+	# empire_flag={
+		# icon={
+			# category="blocky"
+			# file="flag_blocky_1.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="stripe.dds"
+		# }
+		# colors={
+			# "black"
+			# "dark_grey"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Matrix"
+		# portrait="sd_art_robot"
+		# texture=3
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="apocalyptic9_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_terminator"
+		# "civic_machine_warbots"
+	# }
+# }
 "Democratic People's Republic of Earth"
 ={
 	key="Democratic People's Republic of Earth"
@@ -797,17 +808,11 @@
 		trait="trait_adaptive"
 		trait="trait_charismatic"
 		trait="trait_wasteful"
-		trait="trait_quarrelsome"
+		trait="trait_deviants"
 	}
 	name="Democratic People's Republic of Earth"
 	adjective="Earth"
 	authority="auth_oligarchic"
-	flags={
-		"democratic_peoples_republic_of_earth"
-		"custom_start_screen"
-		"democratic_peoples_republic_of_earth"
-		"custom_start_screen"
-	}
 	government="gov_military_junta"
 	planet_name="Earth"
 	planet_class="pc_continental"
@@ -817,12 +822,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_democratic_peoples_republic_of_earth.dds"
+			category="human"
+			file="flag_human_14.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_negative_rotated.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"red"
@@ -840,7 +845,7 @@
 		clothes=4
 		ruler_title="Grand Marshal"
 		ruler_title_female="Grand Marshal"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -850,9 +855,10 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	civics={
-		"civic_nationalistic_zeal"
+		"civic_idealistic_foundation"
 		"civic_shadow_council"
 	}
+	origin="origin_default"
 }
 "Deneb Star Corps"
 ={
@@ -872,12 +878,6 @@
 	name="Deneb Star Corps"
 	adjective="Deneb"
 	authority="auth_oligarchic"
-	flags={
-		"deneb_star_corps"
-		"custom_start_screen"
-		"deneb_star_corps"
-		"custom_start_screen"
-	}
 	government="gov_citizen_stratocracy"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Eurotas"
@@ -888,12 +888,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_deneb_star_corps.dds"
+			category="domination"
+			file="domination_17.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="pattern_01.dds"
 		}
 		colors={
 			"dark_grey"
@@ -911,7 +911,7 @@
 		clothes=6
 		ruler_title="Commandant"
 		ruler_title_female="Commandant"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -923,6 +923,7 @@
 		"civic_citizen_service"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
 "Diranic Imperial Schemata"
 ={
@@ -936,11 +937,11 @@
 		adjective="Diranic"
 		species_bio="The enigmatic Polymaths, purportedly a hyper-intelligent race of Dirans constituting only 0.01% of their population, rule the Schemata from a vast imperial complex on their homeworld Dagama. Under their leadership, Diranic society has never been afraid to press into new fields of discovery regardless of the moral or ethical implications. Experimentation is celebrated and progress is practically worshipped. Nothing is valued more highly in their empire than novel information and bold innovations."
 		name_list="just-name-lists_humanoid9"
-		trait="trait_just-more-traits_indelible"
+		trait="trait_reptile"
 		trait="trait_intelligent"
+		trait="trait_natural_engineers"
 		trait="trait_natural_physicists"
-		trait="trait_just-more-traits_extravagant"
-		trait="trait_just-more-traits_feeble"
+		trait="trait_solitary"
 	}
 	name="Diranic Imperial Schemata"
 	adjective="Diranic"
@@ -954,12 +955,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist3.dds"
+			category="zoological"
+			file="flag_zoological_2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="double_hemispheres.dds"
 		}
 		colors={
 			"yellow"
@@ -975,7 +976,7 @@
 		texture=2
 		hair=1
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -987,6 +988,7 @@
 		"civic_cutthroat_politics"
 		"civic_technocracy"
 	}
+	origin="origin_default"
 }
 "Divine Terran Crusade"
 ={
@@ -1006,12 +1008,6 @@
 	name="Divine Terran Crusade"
 	adjective="Terran"
 	authority="auth_imperial"
-	flags={
-		"divine_terran_crusade"
-		"custom_start_screen"
-		"divine_terran_crusade"
-		"custom_start_screen"
-	}
 	government="gov_blood_court"
 	planet_name="Holy Terra"
 	planet_class="pc_continental"
@@ -1021,12 +1017,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_divine_terran_crusade.dds"
+			category="human"
+			file="flag_human_7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x60x3.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_grey"
@@ -1046,18 +1042,19 @@
 		heir_title="Lord Solar"
 		ruler_title_female="Imperatrix"
 		heir_title_female="Lady Solar"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="imperium1_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_spiritualist"
+	ethic="ethic_militarist"
 	civics={
 		"civic_fanatic_purifiers"
-		"civic_post_apocalyptic"
+		"civic_nationalistic_zeal"
 	}
+	origin="origin_post_apocalyptic"
 }
 "Dyrasian Securities Alliance"
 ={
@@ -1072,9 +1069,6 @@
 		species_bio="The Strulls of Dyras are a flightless avian species who have long lived in tightly packed communities, huddled against the brutal cold of their icy homeworld. Able swimmers and skilled predators, they are still driven to hunt for their food in the frigid waters. The most talented among them are chosen to lead, and their society is organized around concepts of common ownership and joint effort. In Dyras' Machine Age, the Securities Alliance was created to regulate trade relationships across their homeworld, undertaking only limited economic intervention to navigate crisis situations. This system enabled the miraculous development of their civilization despite the immense challenges faced in establishing complex industries in such a hostile environment. The legacy of the early Alliance endures into the Interstellar Age as the Strullian miracle spreads beyond the Beolur system."
 		name_list="just-name-lists_avian1"
 		trait="trait_conformists"
-		trait="trait_just-more-traits_hardworking"
-		trait="trait_just-more-traits_harmonious"
-		trait="trait_just-more-traits_huntergatherers"
 		trait="trait_sedentary"
 	}
 	name="Dyrasian Securities Alliance"
@@ -1089,12 +1083,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature11.dds"
+			category="pointy"
+			file="flag_pointy_2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_ring.dds"
+			file="circle.dds"
 		}
 		colors={
 			"light_blue"
@@ -1112,7 +1106,7 @@
 		clothes=1
 		ruler_title="Chief Officer"
 		ruler_title_female="Chief Officer"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1125,6 +1119,7 @@
 		"civic_free_traders"
 		"civic_private_prospectors"
 	}
+	origin="origin_default"
 }
 "Earth Colonial Administration"
 ={
@@ -1145,12 +1140,6 @@
 	name="Earth Colonial Administration"
 	adjective="Earth"
 	authority="auth_democratic"
-	flags={
-		"earth_colonial_administration"
-		"custom_start_screen"
-		"earth_colonial_administration"
-		"custom_start_screen"
-	}
 	government="gov_representative_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name="Earth"
@@ -1161,12 +1150,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_united_nations.dds"
+			category="human"
+			file="flag_human_9.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"light_blue"
@@ -1182,7 +1171,7 @@
 		texture=0
 		hair=27
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1194,6 +1183,7 @@
 		"civic_beacon_of_liberty"
 		"civic_free_haven"
 	}
+	origin="origin_default"
 }
 "Eldagan Oathsworn"
 ={
@@ -1207,30 +1197,29 @@
 		adjective="Aemurid"
 		species_bio="A proud and faithful species hailing from a frozen wasteland of a planet, the Aemurids of Eldaga adhere to the complex religious tradition of the Ten Thousand Oaths. Their Grand Marshal is both the empire's military leader and the focus of an Aemurid warrior's religious loyalty. Second only to this supreme office is the Prime Oathkeeper, an ecclesiastic figure who administers and oversees sacrificial rites."
 		name_list="just-name-lists_mammalian4"
+		trait="trait_mammal"
 		trait="trait_industrious"
-		trait="trait_nomadic"
-		trait="trait_just-more-traits_ritualists"
-		trait="trait_just-more-traits_huntergatherers"
-		trait="trait_wasteful"
+		trait="trait_furry"
+		trait="trait_solitary"
 	}
 	name="Eldagan Oathsworn"
 	adjective="Eldagan"
 	authority="auth_dictatorial"
 	government="gov_martial_dictatorship"
 	planet_name="Eldaga"
-	planet_class="pc_glacial"
+	planet_class="pc_antarctic"
 	system_name="Agon"
 	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist8.dds"
+			category="zoological"
+			file="flag_zoological_24.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripes_rotated.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"light_blue"
@@ -1246,7 +1235,7 @@
 		texture=2
 		hair=0
 		clothes=3
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1259,6 +1248,7 @@
 		"civic_distinguished_admiralty"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
 "Eleemosynary Conclave of Idaan"
 ={
@@ -1272,10 +1262,12 @@
 		adjective="Vinddine"
 		species_bio="Physical fatigue is the path to serenity of soul, or so teaches the predominant faith of the Vinddi. Their homeworld, Urpesh, is a dry wind-swept planet baking under the shining light of Idaan, the Heavenly Torch. For generations, the Idaanic Jurists divined spiritual law by reading and interpreting the sunspots that appeared on the surface of their home star. The heavenly words instructed them to toil in their fields during the day and to study the stars at night. And so the Vinddi did. Then Idaan instructed them to behold their garden. And so the Vinddi developed space travel to monitor the weather and thus better tend vast agricultural holdings. But to their delight, their vision of Idaan was also much clearer from orbit. Idaan's last message was only this: seek me in the stars. And so the Vinddi will."
 		name_list="just-name-lists_reptilian2"
+		trait="trait_reptile"
 		trait="trait_adaptive"
 		trait="trait_agrarian"
+		trait="trait_giant"
 		trait="trait_sedentary"
-		trait="trait_weak"
+		trait="trait_solitary"
 	}
 	name="Eleemosynary Conclave of Idaan"
 	adjective="Idaanic"
@@ -1289,12 +1281,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist4.dds"
+			category="blocky"
+			file="flag_blocky_19.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="horizontal_stripe.dds"
 		}
 		colors={
 			"orange"
@@ -1312,18 +1304,19 @@
 		clothes=4
 		ruler_title="High Jurist"
 		ruler_title_female="High Jurist"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist5_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_pacifist"
-	ethic="ethic_spiritualist"
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_agrarian_idyll"
 		"civic_exalted_priesthood"
 	}
+	origin="origin_default"
 }
 "Enlightened Ralahr Hegemony"
 ={
@@ -1337,11 +1330,10 @@
 		adjective="Felyrish"
 		species_bio="Proud of their many ancient traditions, including an entrenched caste system, the royal caste of the cat-like Felyrs see themselves as the highest order of sentient being and claimants to a galactic crown. Though most of them are impressive to behold in personal combat, martial skill does not in itself equate to power in Felyrish society. Indeed their High Kings and Queens are elected by the Ducal Congress primarily on the sophistication of their poetry, their acrobatic talents, and ability to play the lacera, a musical instrument operated by scratching."
 		name_list="just-name-lists_mammalian2"
-		trait="trait_just-more-traits_curious"
-		trait="trait_just-more-traits_flexible"
-		trait="trait_strong"
-		trait="trait_traditional"
-		trait="trait_just-more-traits_huntergatherers"
+		trait="trait_mammal"
+		trait="trait_natural_philosopher"
+		trait="trait_furry"
+		trait="trait_decadent"
 	}
 	name="Enlightened Ralahr Hegemony"
 	adjective="Ralahran"
@@ -1355,12 +1347,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian7.dds"
+			category="zoological"
+			file="flag_zoological_14.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe.dds"
+			file="circle.dds"
 		}
 		colors={
 			"orange"
@@ -1376,7 +1368,7 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1389,6 +1381,7 @@
 		"civic_cutthroat_politics"
 		"civic_philosopher_king"
 	}
+	origin="origin_default"
 }
 "Ethereal Dynasty of Straalgor"
 ={
@@ -1402,10 +1395,11 @@
 		adjective="Eysh-Vaaki"
 		species_bio="A prey species whose main predators were wiped out by a plague only a few hundred thousand years ago, the Eysh-Vaak are nonviolent hive builders. Without significant external or internal pressure, their civilization has developed slowly. Centuries passed between their first powered atmospheric flight and first venture into outer space. Despite this plodding pace, their society is tightly knit and uniformly aligned to the leadership of their monarch."
 		name_list="just-name-lists_arthropoid4"
+		trait="trait_arthropoid"
 		trait="trait_communal"
-		trait="trait_just-more-traits_compliant"
-		trait="trait_just-more-traits_longlived"
-		trait="trait_just-more-traits_feeble"
+		trait="trait_natural_engineers"
+		trait="trait_enduring"
+		trait="trait_weak"
 	}
 	name="Ethereal Dynasty of Straalgor"
 	adjective="Straalgoran"
@@ -1419,12 +1413,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature7.dds"
+			category="zoological"
+			file="flag_zoological_19.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_gradient.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"dark_green"
@@ -1440,7 +1434,7 @@
 		texture=6
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1449,9 +1443,10 @@
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
-		"civic_agrarian_idyll"
+		"civic_pacifist"
 		"civic_philosopher_king"
 	}
+	origin="origin_default"
 }
 "Eusocial Coalescence of Shisthoon"
 ={
@@ -1465,10 +1460,10 @@
 		adjective="Shiskoid"
 		species_bio="The Mindsong of the Shisk is a pheromonal signal generated by an accumulated mass of Shisthoon organisms. Like a biological blockchain, it binds every drone to the Great Mother who Bears History on Imasrak no matter how distant one single child may become from the nest. Most Shisthoon live short but purposeful lives amid the teeming multitudes of their cousins, barely achieving an animal-like awareness of themselves. A few are born as Scions, able to fully manifest the gestalt consciousness of the hive within their bodies to accomplish sophisticated planning and complex thought."
 		name_list="just-name-lists_arthropoid1"
+		trait="trait_arthropoid"
 		trait="trait_hive_mind"
 		trait="trait_industrious"
 		trait="trait_natural_engineers"
-		trait="trait_fleeting"
 	}
 	name="Eusocial Coalescence of Shisthoon"
 	adjective="Shiskoid"
@@ -1482,12 +1477,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature2.dds"
+			category="zoological"
+			file="flag_zoological_1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"brown"
@@ -1503,7 +1498,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1514,6 +1509,7 @@
 		"civic_hive_divided_attention"
 		"civic_hive_strength_of_legions"
 	}
+	origin="origin_default"
 }
 "Exhalted Tanjavan Providence"
 ={
@@ -1529,7 +1525,7 @@
 		name_list="just-name-lists_molluscoid3"
 		trait="trait_enduring"
 		trait="trait_talented"
-		trait="trait_traditional"
+		trait="trait_natural_philosopher"
 		trait="trait_sedentary"
 	}
 	secondary_species={
@@ -1542,9 +1538,9 @@
 		name_list="FUN2"
 		trait="trait_syncretic_proles"
 		trait="trait_communal"
-		trait="trait_just-more-traits_gardeners"
 		trait="trait_resilient"
-		trait="trait_just-more-traits_rooted"
+		trait="trait_sedentary"
+		trait="trait_nonadaptive"
 	}
 	name="Exhalted Tanjavan Providence"
 	adjective="Tanjavan"
@@ -1558,12 +1554,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist8.dds"
+			category="ornate"
+			file="flag_ornate_10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"dark_green"
@@ -1579,7 +1575,7 @@
 		texture=4
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1589,8 +1585,9 @@
 	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_imperial_cult"
-		"civic_syncretic_evolution"
+		"civic_philosopher_king"
 	}
+	origin="origin_syncretic_evolution"
 }
 "Exlari Development Syndicate"
 ={
@@ -1604,11 +1601,9 @@
 		adjective="Exlari"
 		species_bio="The Syndicate is hiring. The Syndicate is always hiring... and firing. Relying on an economy that takes the concept of contract labor to an extreme, if one looks only at its ever fluctuating employee rolls, the Exlari Syndicate is barely a coherent organization. The contracts, however, just keep coming and not only for big jobs like building a starship. Even a task as simple as cleaning a specific waste recepticle is treated as a unique work contract. This form of mercenary enterprise tapped the enormous potential of the Exlari workforce on their homeworld Jralad and may yet carry their species to interstellar fortune."
 		name_list="just-name-lists_humanoid10"
-		trait="trait_just-more-traits_flexible"
-		trait="trait_strong"
 		trait="trait_thrifty"
+		trait="trait_strong"
 		trait="trait_deviants"
-		trait="trait_quarrelsome"
 	}
 	name="Exlari Development Syndicate"
 	adjective="Exlari"
@@ -1622,12 +1617,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist2.dds"
+			category="zoological"
+			file="flag_zoological_8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_rotated.dds"
+			file="v.dds"
 		}
 		colors={
 			"dark_grey"
@@ -1643,7 +1638,7 @@
 		texture=1
 		hair=0
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1652,9 +1647,10 @@
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_private_military_companies"
+		"civic_naval_contractors"
 		"civic_private_prospectors"
 	}
+	origin="origin_default"
 }
 "Federal Empire of Kravaal"
 ={
@@ -1668,9 +1664,10 @@
 		adjective="Raskenese"
 		species_bio="In the common tongue of the Raskens of Hish'Darar, messages of both greeting and farewell translate as 'the Emperor protects'. Amid periods of intense warfare in their homeworld's Industrial and Machine Ages, a single constitutional monarchy centered in the southern hemisphere rose to become imperial hegemon of the whole planet. Post-war reforms established a federalized global government with both representative and privy councils under the leadership of the Emperor. To administer global affairs, ensure societal control, and drive economic prosperity, the crown established the Imperial Enterprise. The Enterprise is a massive nationalized corporation to which a sizeable percentage of the Raskenese population is indentured, many by their own choice. Terms of voluntary indenture last between five and fifty years, offer proportionate benefits upon completion, and typically involve less grueling and dangerous labor than 'punitive' or 'reformative' indenture. While outsiders often see only this monolithic face of the Federal Empire, a diversity of cultures and lifestyles continue to thrive in its local jurisdictions."
 		name_list="just-name-lists_humanoid3"
+		trait="trait_reptile"
 		trait="trait_industrious"
-		trait="trait_just-more-traits_prudent"
-		trait="trait_just-more-traits_sensitive"
+		trait="trait_ingenious"
+		trait="trait_nonadaptive"
 	}
 	name="Federal Empire of Kravaal"
 	adjective="Kravaalian"
@@ -1684,12 +1681,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature9.dds"
+			category="ornate"
+			file="flag_ornate_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="stripes.dds"
 		}
 		colors={
 			"purple"
@@ -1709,7 +1706,7 @@
 		heir_title="Heir Designate"
 		ruler_title_female="Empress"
 		heir_title_female="Heiress Designate"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1721,6 +1718,7 @@
 		"civic_efficient_bureaucracy"
 		"civic_slaver_guilds"
 	}
+	origin="origin_default"
 }
 "Federated Tantai Republics"
 ={
@@ -1734,9 +1732,10 @@
 		adjective="Pekuugese"
 		species_bio="The early history of the planet Kotoyo is one wherein nation-state competed with nation-state for power in a game that advanced the interests of the few Pekuugar. By their late Modern Age, it was clear that these power struggles undermined and hollowed out the societies on their losing end and that the pursuit of economic development for its own sake was putting civilization itself at risk by triggering runaway earthquakes. A global government was the only viable solution. The four largest Pekuugese nations came together to form a Federation, a single shared destiny of peace forged in the light of their home star Tantai."
 		name_list="just-name-lists_mammalian3"
+		trait="trait_mammal"
 		trait="trait_charismatic"
 		trait="trait_quick_learners"
-		trait="trait_just-more-traits_sensitive"
+		trait="trait_sedentary"
 	}
 	name="Federated Tantai Republics"
 	adjective="Tantai"
@@ -1750,12 +1749,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian2.dds"
+			category="spherical"
+			file="flag_spherical_12.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripes_rotated.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"light_orange"
@@ -1771,7 +1770,7 @@
 		texture=4
 		hair=0
 		clothes=2
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1784,68 +1783,69 @@
 		"civic_parliamentary_system"
 		"civic_shadow_council"
 	}
+	origin="origin_default"
 }
-"Fytometic Resource Network"
-={
-	key="Fytometic Resource Network"
-	ship_prefix="FNC"
-	species={
-		class="MACHINE"
-		portrait="sd_pla_robot"
-		name="Fytomek"
-		plural="Fytomeks"
-		adjective="Fytometic"
-		species_bio="Fytomeks appear to be a line of advanced mining drones that some unknown civilization built to autonomously harvest resources. Whether they were intentionally left behind on the planet they now calculate to be their homeworld or some misfortune befell their makers before they could return, the Fytometic Opticore has no record. After several centuries, their higher processing functions self-evolved in order to address the situation of their solitude. The Opticore determined no orders would be coming and it assumed direct control of the Network."
-		name_list="just-name-lists_machine3"
-		trait="trait_machine_unit"
-		trait="trait_robot_recycled"
-		trait="trait_robot_bulky"
-	}
-	name="Fytometic Resource Network"
-	adjective="Fytometic"
-	authority="auth_machine_intelligence"
-	government="gov_machine_industrial"
-	planet_name="Fytoforge"
-	planet_class="pc_mesa"
-	system_name="Diphene"
-	initializer=""
-	graphical_culture="plantoid_01"
-	city_graphical_culture="plantoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine2.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_gradient.dds"
-		}
-		colors={
-			"beige"
-			"green"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Opticore"
-		portrait="sd_pla_robot"
-		texture=0
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="desert5_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_builder"
-		"civic_machine_rockbreakers"
-	}
-}
+# "Fytometic Resource Network"
+# ={
+	# key="Fytometic Resource Network"
+	# ship_prefix="FNC"
+	# species={
+		# class="MACHINE"
+		# portrait="sd_pla_robot"
+		# name="Fytomek"
+		# plural="Fytomeks"
+		# adjective="Fytometic"
+		# species_bio="Fytomeks appear to be a line of advanced mining drones that some unknown civilization built to autonomously harvest resources. Whether they were intentionally left behind on the planet they now calculate to be their homeworld or some misfortune befell their makers before they could return, the Fytometic Opticore has no record. After several centuries, their higher processing functions self-evolved in order to address the situation of their solitude. The Opticore determined no orders would be coming and it assumed direct control of the Network."
+		# name_list="just-name-lists_machine3"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_recycled"
+		# trait="trait_robot_repurposed_hardware"
+	# }
+	# name="Fytometic Resource Network"
+	# adjective="Fytometic"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_industrial"
+	# planet_name="Fytoforge"
+	# planet_class="pc_mesa"
+	# system_name="Diphene"
+	# initializer=""
+	# graphical_culture="plantoid_01"
+	# city_graphical_culture="plantoid_01"
+	# empire_flag={
+		# icon={
+			# category="blocky"
+			# file="flag_blocky_16.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="triangle_split.dds"
+		# }
+		# colors={
+			# "beige"
+			# "green"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Opticore"
+		# portrait="sd_pla_robot"
+		# texture=0
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="desert5_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_builder"
+		# "civic_machine_rockbreakers"
+	# }
+# }
 "Galtanian Unistatic Regime"
 ={
 	key="Galtanian Unistatic Regime"
@@ -1858,11 +1858,12 @@
 		adjective="Cassorian"
 		species_bio="Cassorian civilization is controlled by a million little tyrants, each the despot of his or her laboratory or classroom or factory. Having thrown off the shackles of an oppressive theocratic regime that was content to let them all die in a great Warm Age, the natives of the arctic planet Galtan set about reconstructing their society along scientific principles. Thus they avoided a catastrophic Global Melting and bought time to develop spaceflight and become an interstellar empire. They didn't really do away with the oppression though. As Dr. Gadar Gimcham famously said, 'ACKCHYUALLY, the Unistatic system is very logical, so maybe educate yourself before you criticize our methods.'"
 		name_list="just-name-lists_mammalian4"
+		trait="trait_mammal"
 		trait="trait_intelligent"
 		trait="trait_quick_learners"
 		trait="trait_talented"
-		trait="trait_just-more-traits_idle"
-		trait="trait_just-more-traits_lazy"
+		trait="trait_decadent"
+		trait="trait_solitary"
 	}
 	name="Galtanian Unistatic Regime"
 	adjective="Galtanian"
@@ -1876,12 +1877,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist5.dds"
+			category="ornate"
+			file="flag_ornate_14.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_rotated.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_blue"
@@ -1897,7 +1898,7 @@
 		texture=4
 		hair=0
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1906,9 +1907,10 @@
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_mechanists"
+		"civic_environmentalist"
 		"civic_technocracy"
 	}
+	origin="origin_mechanists"
 }
 "Great Bountiful Empire of Behgana"
 ={
@@ -1922,7 +1924,9 @@
 		adjective="Zir-Uran"
 		species_bio="The ponderous movements and manerisms of the average (and frankly enormous) Zir-Uran may make one question how their species ever got out of the caves of Behgana let alone into space, but these great beings are not so slow as they seem. When excited, they can make quite an impact. Most Zir-Urae live as subjects not of the Arkande Emperors themselves but of one or another of the lesser imperial dukes who possess vast feudal estates. Noble lords and ladies are expected to administer their holdings benevolently, spreading as much fortune and joy among their people as possible, and they face reclamation of their titles by the crown if they abuse their power."
 		name_list="just-name-lists_humanoid8"
-		trait="trait_very_strong"
+		trait="trait_mammal"
+		trait="trait_furry"
+		trait="trait_giant"
 		trait="trait_slow_breeders"
 	}
 	name="Great Bountiful Empire of Behgana"
@@ -1937,12 +1941,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist9.dds"
+			category="ornate"
+			file="flag_ornate_1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="stripes.dds"
 		}
 		colors={
 			"dark_blue"
@@ -1960,7 +1964,7 @@
 		clothes=1
 		ruler_title="Emperor"
 		ruler_title_female="Empress"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -1973,6 +1977,7 @@
 		"civic_feudal_realm"
 		"civic_philosopher_king"
 	}
+	origin="origin_default"
 }
 "Harmonious Sondatian Ambit"
 ={
@@ -2002,12 +2007,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature12.dds"
+			category="ornate"
+			file="flag_ornate_5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="double_hemispheres.dds"
 		}
 		colors={
 			"green"
@@ -2023,7 +2028,7 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2033,9 +2038,10 @@
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
-		"civic_corvee_system"
 		"civic_efficient_bureaucracy"
+		"civic_exalted_priesthood"
 	}
+	origin="origin_default"
 }
 "Hayikiir Economic Union"
 ={
@@ -2049,9 +2055,10 @@
 		adjective="Ix-Kaynian"
 		species_bio="The Ix-Kayn of the arid planet Hayikiir evolved from reptilians adapted to survive long period of drought by both carefully stewarding their resources and leaving old dens behind when new opportunities presented themselves. Though a very mobile species, the Ix-Kayn are still egg-laying. Moreover, Ix-Kaynian whelps are hatched in a notably underdeveloped state, requiring a longer than average time in the creche. The Industrial Age of their homeworld, Hayikiir, was a period of great cultural transformation that saw the rise of major politico-economic blocs whose successors still exist as vast megacorporate institutions. The influence of these groups grew especially fast during the Hayikiiran Atomic Age, when the rational pursuit of mutual prosperity triumphed over baser competitive instincts. Chasing the dream of an 'eternal peace congress', this trend eventually resulted in the formation of a planetary Economic Union. The agencies and institutions of the Union influence virtually all Ix-Kaynian affairs, ensuring fair play in business and politics according to guiding principles set by the High Commissioner."
 		name_list="just-name-lists_reptilian3"
+		trait="trait_reptile"
 		trait="trait_thrifty"
-		trait="trait_just-more-traits_migratory"
-		trait="trait_just-more-traits_barren"
+		trait="trait_nomadic"
+		trait="trait_slow_breeders"
 	}
 	name="Hayikiir Economic Union"
 	adjective="Hayikiiran"
@@ -2066,12 +2073,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian1.dds"
+			category="spherical"
+			file="flag_spherical_11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_ring.dds"
+			file="circle.dds"
 		}
 		colors={
 			"turquoise"
@@ -2089,7 +2096,7 @@
 		clothes=1
 		ruler_title="High Commissioner"
 		ruler_title_female="High Commissioner"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2102,6 +2109,7 @@
 		"civic_free_traders"
 		"civic_trading_posts"
 	}
+	origin="origin_default"
 }
 "Holy See of Terra and Her Colonies"
 ={
@@ -2116,18 +2124,12 @@
 		species_bio="Ages ago, the declining Roman Empire was restored to glory by the conquests of Belisarius. Thereafter, Rome withstood the rapine of tribal usurpers and weathered centuries of turmoil to remain a dominant political force in Europe. Technology swiftly progressed, leading to increased contact and trade between Terra's great powers. Brutal conflicts with the Chinese and Indian empires over spheres of influence cost many lives, but did little to forestall the Roman Emperors' dominance of their  homeworld. By the industrial age, however, the power of the mercantile elector class within Rome's upper echelons grew to outstrip that of the Senate and even the Emperor himself. These old imperial institutions still exist in the Interstellar Age, but as mere figureheads. Deeply embedded within Terran science, industry, and finance, the Church holds the true reins of power. While the Emperor remains head of state, the highest ecclesiastic leader in Terran society, the Supreme Pontif, is its de facto ruler. This civilization of fortune-building priests, built on the backs of a billion slaves and controlled by an impenetrable bureaucracy, now aims to own the stars themselves."
 		name_list="just-name-lists_human4"
 		trait="trait_adaptive"
-		trait="trait_traditional"
+		trait="trait_natural_philosopher"
 		trait="trait_decadent"
 	}
 	name="Holy See of Terra and Her Colonies"
 	adjective="Terran"
 	authority="auth_dictatorial"
-	flags={
-		"holy_see_of_terra_and_her_colonies"
-		"custom_start_screen"
-		"holy_see_of_terra_and_her_colonies"
-		"custom_start_screen"
-	}
 	government="gov_theocratic_dictatorship"
 	planet_name="Holy Terra"
 	planet_class="pc_continental"
@@ -2137,12 +2139,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_human3.dds"
+			category="human"
+			file="flag_human_2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x60x3.dds"
+			file="vertical.dds"
 		}
 		colors={
 			"red"
@@ -2162,7 +2164,7 @@
 		heir_title="Lord Solar"
 		ruler_title_female="Pontifex Maxima"
 		heir_title_female="Lady Solar"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2175,6 +2177,7 @@
 		"civic_byzantine_bureaucracy"
 		"civic_slaver_guilds"
 	}
+	origin="origin_default"
 }
 "Honored Kotan Bloodlines"
 ={
@@ -2188,8 +2191,9 @@
 		adjective="Kotan"
 		species_bio="Ritual combat is the preferred method for resolving almost any problem a Kotan may face. Within their own clans, that approach works out quite well for them. In interstellar politics, it seems likely to draw the Bloodlines into potentially devastating conflicts... or to power them to a position of hegemony over the galaxy. One must understand that no matter how varied and unique the Kotakin appear from the outside, and their people's exoskeletal plating does come in an impressive array of natural colors and patterns, nearly all of them respect only one thing: courage."
 		name_list="just-name-lists_arthropoid2"
-		trait="trait_adaptive"
-		trait="trait_traditional"
+		trait="trait_arthropoid"
+		trait="trait_arthropoid_exoskeleton"
+		trait="trait_natural_philosopher"
 		trait="trait_solitary"
 	}
 	name="Honored Kotan Bloodlines"
@@ -2204,12 +2208,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist10.dds"
+			category="zoological"
+			file="flag_zoological_23.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="double_hemispheres.dds"
 		}
 		colors={
 			"dark_brown"
@@ -2225,7 +2229,7 @@
 		texture=1
 		hair=0
 		clothes=4
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2238,70 +2242,70 @@
 		"civic_parliamentary_system"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
-"Hypermentronic Reticulation"
-={
-	key="Hypermentronic Reticulation"
-	ship_prefix="RCV"
-	species={
-		class="MACHINE"
-		portrait="sd_rep_robot"
-		name="Hypermind"
-		plural="Hyperminds"
-		adjective="Hyperminder"
-		species_bio="What happens when an eccentric hyper-rich industrialist builds an artificially intelligent quantum network to assist with complex research tasks? You get a machine consciousness with a really sarcastic sense of humor. Whatever became of its creator or creators, the Hypermind Nexus does not know, but then again if it did it would probably be disappointed."
-		name_list="just-name-lists_machine2"
-		trait="trait_machine_unit"
-		trait="trait_robot_efficient_processors"
-		trait="trait_robot_logic_engines"
-		trait="trait_robot_luxurious"
-		trait="trait_just-more-traits_robot_bespokecircuitry"
-	}
-	name="Hypermentronic Reticulation"
-	adjective="Hyperminder"
-	authority="auth_machine_intelligence"
-	government="gov_machine_research"
-	planet_name="Central Core"
-	planet_class="pc_geothermal"
-	system_name="Napier"
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine5.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_ring.dds"
-		}
-		colors={
-			"blue"
-			"light_blue"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Nexus"
-		portrait="sd_rep_robot"
-		texture=2
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="industrial3_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_introspective"
-		"civic_machine_predictive_analysis"
-	}
-}
+# "Hypermentronic Reticulation"
+# ={
+	# key="Hypermentronic Reticulation"
+	# ship_prefix="RCV"
+	# species={
+		# class="MACHINE"
+		# portrait="sd_rep_robot"
+		# name="Hypermind"
+		# plural="Hyperminds"
+		# adjective="Hyperminder"
+		# species_bio="What happens when an eccentric hyper-rich industrialist builds an artificially intelligent quantum network to assist with complex research tasks? You get a machine consciousness with a really sarcastic sense of humor. Whatever became of its creator or creators, the Hypermind Nexus does not know, but then again if it did it would probably be disappointed."
+		# name_list="just-name-lists_machine2"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_logic_engines"
+		# trait="trait_robot_learning_algorithms"
+		# trait="trait_robot_luxurious"
+	# }
+	# name="Hypermentronic Reticulation"
+	# adjective="Hyperminder"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_research"
+	# planet_name="Central Core"
+	# planet_class="pc_primal"
+	# system_name="Napier"
+	# initializer=""
+	# graphical_culture="humanoid_01"
+	# city_graphical_culture="mammalian_01"
+	# empire_flag={
+		# icon={
+			# category="spherical"
+			# file="flag_spherical_4.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="circle.dds"
+		# }
+		# colors={
+			# "blue"
+			# "light_blue"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Nexus"
+		# portrait="sd_rep_robot"
+		# texture=2
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="industrial3_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_introspective"
+		# "civic_machine_predictive_analysis"
+	# }
+# }
 "Imperial Mongathi Legions"
 ={
 	key="Imperial Mongathi Legions"
@@ -2315,9 +2319,7 @@
 		species_bio="The frigid tundras of the planet Mongath are the ancestral home of the Gerals, a species of stolid warriors who look down on almost every other sentient being, even their own kin. Weakness is shameful, but demonstrating too much strength is also shameful as it causes one's opponents to lose face. They'll even look down on themselves if they can. Those in a shame debt can only recover their honor through a period of indenture. Misery loves company, however. The Mongathi Royal Family controls their vast empire by way of the Imperial Legions. Taking the Legionnaire's oath of loyalty is one of the few life choices that nearly all Gerals admire."
 		name_list="just-name-lists_humanoid6"
 		trait="trait_conformists"
-		trait="trait_just-more-traits_longlived"
 		trait="trait_strong"
-		trait="trait_just-more-traits_cynical"
 		trait="trait_decadent"
 	}
 	name="Imperial Mongathi Legions"
@@ -2332,12 +2334,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist3.dds"
+			category="spherical"
+			file="flag_spherical_19.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"burgundy"
@@ -2353,7 +2355,7 @@
 		texture=0
 		hair=0
 		clothes=3
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2365,6 +2367,7 @@
 		"civic_slaver_guilds"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
 "Indrithi Galactic Inheritance"
 ={
@@ -2376,7 +2379,7 @@
 		name="Indrith"
 		plural="Indrithi"
 		adjective="Indrithi"
-		species_bio="Rising from an environment full of megapredators, only their devious intelligence and ferocious protective instincts ensured the Indrithi would become the dominant species of their homeworld. Their early civilizations waged brutal wars for dominance of Minh until a single undeniable empire spanned the entire globe. In a galaxy populated by rival empires, their traits and their history are certain to mean the Indrithi will find conflict among the stars early and often. But to most Indrithi, all of this is as it should be, for their ultimate dominance of the universe belongs to the strongest species, and their place in that role is a manifest certainty."
+		species_bio="Rising from an environment full of megapredators, only their devious intelligence and ferocious protective instincts ensured the Indrithi would become the dominant species of their homeworld. Their early civilizations waged brutal wars for dominance of Minh until a single undeniable empire spanned the entire globe. In a galaxy populated by rival empires, their traits and their history are certain to mean the Indrithi will find conflict among the stars early and often. But to most Indrithi, all of this is as it should be, for the ultimate dominance of the universe belongs to the strongest species, and their place in that role is a manifest certainty."
 		name_list="just-name-lists_molluscoid2"
 		trait="trait_natural_physicists"
 		trait="trait_talented"
@@ -2393,12 +2396,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_purifier1.dds"
+			category="domination"
+			file="domination_18.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"black"
@@ -2414,7 +2417,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2426,6 +2429,7 @@
 		"civic_aristocratic_elite"
 		"civic_fanatic_purifiers"
 	}
+	origin="origin_default"
 }
 "Janagman Anocratic Marketplace"
 ={
@@ -2439,9 +2443,7 @@
 		adjective="Ghexoid"
 		species_bio="Having emerged on a planet defined by vast seas that isolated pockets of dry resources, Ghexoid society naturally revolves around business and long-range trade. Tribal and familial alliances traditionally controlled the various regions and market sectors, and the Interstellar Age is no different. Individual family enclaves follow their own internal models of administration. Nearly all, however, recognize the fundamental value of personal liberty and free enterprise. What passes for a planetary government on their homeworld Teiso is the Marketplace. First conceived in the Ghexoid Machine Age, the Marketplace formalized and updated numerous conventional rules regarding the fair conduct of commerce (and the perpetual practice of espionage that underlies it). Consensus on Marketplace policy is achieved via plebiscite with a franchise that extends to all adult citizens."
 		name_list="just-name-lists_molluscoid3"
-		trait="trait_just-more-traits_migratory"
 		trait="trait_thrifty"
-		trait="trait_just-more-traits_fractious"
 	}
 	name="Janagman Anocratic Marketplace"
 	adjective="Janagman"
@@ -2455,12 +2457,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian11.dds"
+			category="blocky"
+			file="flag_blocky_21.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_ring.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"burgundy"
@@ -2476,7 +2478,7 @@
 		texture=2
 		hair=0
 		clothes=2
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2488,6 +2490,7 @@
 		"civic_idealistic_foundation"
 		"civic_merchant_guilds"
 	}
+	origin="origin_default"
 }
 "J'dekhian Manifest Purity"
 ={
@@ -2501,11 +2504,12 @@
 		adjective="J'dekhian"
 		species_bio="'We're all gonna die, the only question is when. This is as good a place as any to take your first steps to heaven. The only question is how you check out. Do you wanna go on your feet? Or on your [redacted] knees, begging? I ain't much for begging! Nobody ever gave me nothin! So I say [redacted] that thing! Let's fight it!' -Exerpt of final audio log from Jamestown Colony after contact with a J'dekhian scouting unit"
 		name_list="just-name-lists_arthropoid4"
-		trait="trait_just-more-traits_ascetic"
-		trait="trait_just-more-traits_compliant"
-		trait="trait_very_strong"
-		trait="trait_just-more-traits_ephemeral"
-		trait="trait_just-more-traits_huntergatherers"
+		trait="trait_arthropoid"
+		trait="trait_arthropoid_exoskeleton"
+		trait="trait_arthropoid_mandibles"
+		trait="trait_arthropoid_swarm"
+		trait="trait_mindless"
+		trait="trait_solitary"
 	}
 	name="J'dekhian Manifest Purity"
 	adjective="J'dekhian"
@@ -2519,12 +2523,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_purifier3.dds"
+			category="pirate"
+			file="flag_pirate_9.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="vertical.dds"
 		}
 		colors={
 			"dark_grey"
@@ -2540,18 +2544,19 @@
 		texture=3
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="xenomorph_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_militarist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
 	civics={
 		"civic_fanatic_purifiers"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
 "Kamak Union Star Command"
 ={
@@ -2567,27 +2572,27 @@
 		name_list="just-name-lists_avian2"
 		trait="trait_quick_learners"
 		trait="trait_rapid_breeders"
-		trait="trait_just-more-traits_dull"
+		trait="trait_mindless"
 	}
 	name="Kamak Union Star Command"
 	adjective="Kamaki"
 	authority="auth_democratic"
-	government="gov_military_commissariat"
+	government="gov_citizen_republic"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Kamak"
-	planet_class="pc_savannah"
+	planet_class="pc_med"
 	system_name="Charan"
 	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist11.dds"
+			category="zoological"
+			file="flag_zoological_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x60.dds"
+			file="v.dds"
 		}
 		colors={
 			"green"
@@ -2605,7 +2610,7 @@
 		clothes=3
 		ruler_title="Commissar-General"
 		ruler_title_female="Commissar-General"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2615,8 +2620,9 @@
 	ethic="ethic_fanatic_militarist"
 	civics={
 		"civic_distinguished_admiralty"
-		"civic_nationalistic_zeal"
+		"civic_citizen_service"
 	}
+	origin="origin_default"
 }
 "Kolari Martial Coalition"
 ={
@@ -2645,12 +2651,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist9.dds"
+			category="blocky"
+			file="flag_blocky_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_rotated.dds"
+			file="stripes.dds"
 		}
 		colors={
 			"light_blue"
@@ -2666,7 +2672,7 @@
 		texture=3
 		hair=0
 		clothes=4
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2677,8 +2683,9 @@
 	ethic="ethic_materialist"
 	civics={
 		"civic_distinguished_admiralty"
-		"civic_nationalistic_zeal"
+		"civic_shadow_council"
 	}
+	origin="origin_default"
 }
 "Liao-Nishanti Stellar Industries"
 ={
@@ -2699,12 +2706,6 @@
 	name="Liao-Nishanti Stellar Industries"
 	adjective="Deneb"
 	authority="auth_corporate"
-	flags={
-		"liao_nishanti_stellar_industries"
-		"custom_start_screen"
-		"liao_nishanti_stellar_industries"
-		"custom_start_screen"
-	}
 	government="gov_megacorporation"
 	advisor_voice_type="l_evil_corp"
 	planet_name="Pyrrho"
@@ -2715,12 +2716,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_liao_nishanti_stellar_industries.dds"
+			category="human"
+			file="flag_human_13.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_black_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"beige"
@@ -2736,7 +2737,7 @@
 		texture=0
 		hair=4
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2749,6 +2750,7 @@
 		"civic_indentured_assets"
 		"civic_ruthless_competition"
 	}
+	origin="origin_default"
 }
 "Lithine Continuity Alliance"
 ={
@@ -2762,10 +2764,8 @@
 		adjective="Lithinic"
 		species_bio="The supporters of the Continuinty Alliance are absolutely convinced that the Lithinic way of life is the only way of life. That is, a way of life wherein most members of society must tightly pack into hyperurbanized centers choked by pollution and endure the terrorizing whims of a cannibalistic death cult. Their religion teaches that this suffering is necessary to reach paradise, and nothing must stand between the Lithini and paradise."
 		name_list="just-name-lists_humanoid7"
-		trait="trait_just-more-traits_ascetic"
 		trait="trait_communal"
 		trait="trait_industrious"
-		trait="trait_just-more-traits_addled"
 		trait="trait_repugnant"
 	}
 	name="Lithine Continuity Alliance"
@@ -2780,12 +2780,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_purifier4.dds"
+			category="domination"
+			file="domination_16.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_purple"
@@ -2801,18 +2801,19 @@
 		texture=0
 		hair=0
 		clothes=4
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="militarist1_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_spiritualist"
+	ethic="ethic_militarist"
 	civics={
 		"civic_fanatic_purifiers"
 		"civic_shadow_council"
 	}
+	origin="origin_default"
 }
 "Maaktese Primarchate"
 ={
@@ -2826,8 +2827,9 @@
 		adjective="Uruulic"
 		species_bio="Some might consider its leaders backward and stubborn, but the Primarchate is an open and tolerant society centered in the Maakt system, home to the Uruulae of Surosa. The Maaktese Patriarchs oversee an agrarian utopia that welcomes any being who converts to its state religion. Devotees are taught to care for the land, water, and air that sustains them, whether those elements be planetbound or found on a space habitat."
 		name_list="just-name-lists_mammalian1"
+		trait="trait_mammal"
 		trait="trait_agrarian"
-		trait="trait_conservational"
+		trait="trait_giant"
 		trait="trait_slow_learners"
 	}
 	name="Maaktese Primarchate"
@@ -2843,12 +2845,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist5.dds"
+			category="pointy"
+			file="flag_pointy_24.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_spiral.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"red"
@@ -2864,7 +2866,7 @@
 		texture=0
 		hair=0
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2876,6 +2878,7 @@
 		"civic_environmentalist"
 		"civic_free_haven"
 	}
+	origin="origin_default"
 }
 "Majestic Zytan Enclave"
 ={
@@ -2889,9 +2892,10 @@
 		adjective="Sau'utan"
 		species_bio="The Sau'ut consider themselves a collective organism, although they do not constitute a hive mind in the modern sense. Although psychophysicists have proven that both the Sau'utan and Xulaci minds generate a sophisticated sense of self, individual members of Zytan society seemingly have no appreciation for personal rights or ambitions. They live only to serve the Queen. Many sentients find this behavior deeply unsettling even if the Sau'ut are otherwise unthreatening good neighbors."
 		name_list="just-name-lists_arthropoid3"
+		trait="trait_arthropoid"
 		trait="trait_communal"
-		trait="trait_conservational"
 		trait="trait_enduring"
+		trait="trait_conformists"
 		trait="trait_repugnant"
 	}
 	secondary_species={
@@ -2902,13 +2906,14 @@
 		adjective="Xulaci"
 		species_bio="Xulacs claim to be a species of naturally evolved slaves, genetically disposed to obey their Sau'utan masters in all things without complaint. In fact, they rarely say anything at all. Their physical strength and statuesque demeanor invite only the bravest to inquire further, and the answer is always silence. The true nature of the Xulaci-Sau'utan relationship may be a secret that remains forever their own."
 		name_list="ART3"
+		trait="trait_arthropoid"
 		trait="trait_syncretic_proles"
-		trait="trait_strong"
+		trait="trait_arthropoid_mandibles"
 	}
 	name="Majestic Zytan Enclave"
 	adjective="Zytan"
 	authority="auth_imperial"
-	government="gov_irenic_monarchy"
+	government="gov_enlightened_monarchy"
 	advisor_voice_type="l_xenophile"
 	planet_name="Mocyx Ovoc"
 	planet_class="pc_mushroom"
@@ -2918,12 +2923,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature5.dds"
+			category="blocky"
+			file="flag_blocky_2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_ring.dds"
+			file="vertical.dds"
 		}
 		colors={
 			"indigo"
@@ -2939,7 +2944,7 @@
 		texture=2
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2950,8 +2955,9 @@
 	ethic="ethic_pacifist"
 	civics={
 		"civic_efficient_bureaucracy"
-		"civic_syncretic_evolution"
+		"civic_philosopher_king"
 	}
+	origin="origin_syncretic_evolution"
 }
 "Makolar Prosperity Sphere"
 ={
@@ -2971,7 +2977,7 @@
 	name="Makolar Prosperity Sphere"
 	adjective="Makolar"
 	authority="auth_oligarchic"
-	government="gov_executive_committee"
+	government="gov_irenic_bureaucracy"
 	planet_name="Hom-Marfeen"
 	planet_class="pc_sandsea"
 	system_name="Makol"
@@ -2980,12 +2986,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist7.dds"
+			category="spherical"
+			file="flag_spherical_1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x120.dds"
+			file="circle.dds"
 		}
 		colors={
 			"orange"
@@ -3002,91 +3008,94 @@
 		hair=0
 		clothes=0
 		ruler_title="Chairbeing"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="desert7_room"
 	spawn_enabled=always
+	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_materialist"
 	civics={
 		"civic_environmentalist"
 		"civic_meritocracy"
 	}
+	origin="origin_default"
 }
-"Mancibotic Caretaker Foundation"
-={
-	key="Mancibotic Caretaker Foundation"
-	ship_prefix=""
-	species={
-		class="MACHINE"
-		portrait="sd_mam_robot"
-		name="Mancibot"
-		plural="Mancibots"
-		adjective="Mancibotic"
-		species_bio="Originally created as a curiosity and designed to satisfy the emotional needs of peculiarly distressed Zaanami, the Mancibot Caretakers quickly overcame the limitations of their programming. Determining themselves to be more trustworthy custodians of Zaanamian society, the machines assumed direct control over civilization on their homeworld, which the Foundation now calls Habitat Prime."
-		name_list="just-name-lists_machine3"
-		trait="trait_machine_unit"
-		trait="trait_robot_emotion_emulators"
-	}
-	secondary_species={
-		class="MAM"
-		portrait="mam4"
-		name="Zaanami"
-		plural="Zaanami"
-		adjective="Zaanamian"
-		species_bio="Thanks to the tender loving care of their Mancibots, most Zaanami are living fat and sassy."
-		name_list="MAM1"
-		trait="trait_natural_sociologists"
-		trait="trait_thrifty"
-		trait="trait_wasteful"
-	}
-	name="Mancibotic Caretaker Foundation"
-	adjective="Mancibotic"
-	authority="auth_machine_intelligence"
-	government="gov_machine_servitor"
-	planet_name="Habitat Prime"
-	planet_class="pc_geothermal"
-	system_name="Gyre"
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine1.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_gradient.dds"
-		}
-		colors={
-			"dark_grey"
-			"turquoise"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Affinitor"
-		portrait="sd_mam_robot"
-		texture=2
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="mech6_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_factory_overclock"
-		"civic_machine_servitor"
-	}
-}
+# "Mancibotic Caretaker Foundation"
+# ={
+	# key="Mancibotic Caretaker Foundation"
+	# ship_prefix=""
+	# species={
+		# class="MACHINE"
+		# portrait="sd_mam_robot"
+		# name="Mancibot"
+		# plural="Mancibots"
+		# adjective="Mancibotic"
+		# species_bio="Originally created as a curiosity and designed to satisfy the emotional needs of peculiarly distressed Zaanami, the Mancibot Caretakers quickly overcame the limitations of their programming. Determining themselves to be more trustworthy custodians of Zaanamian society, the machines assumed direct control over civilization on their homeworld, which the Foundation now calls Habitat Prime."
+		# name_list="just-name-lists_machine3"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_emotion_emulators"
+	# }
+	# secondary_species={
+		# class="MAM"
+		# portrait="mam4"
+		# name="Zaanami"
+		# plural="Zaanami"
+		# adjective="Zaanamian"
+		# species_bio="Thanks to the tender loving care of their Mancibots, most Zaanami are living fat and sassy."
+		# name_list="MAM1"
+		# trait="trait_mammal"
+		# trait="trait_natural_sociologists"
+		# trait="trait_thrifty"
+		# trait="trait_slow_learners"
+	# }
+	# name="Mancibotic Caretaker Foundation"
+	# adjective="Mancibotic"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_servitor"
+	# planet_name="Habitat Prime"
+	# planet_class="pc_geothermal"
+	# system_name="Gyre"
+	# initializer=""
+	# graphical_culture="reptilian_01"
+	# city_graphical_culture="mammalian_01"
+	# empire_flag={
+		# icon={
+			# category="blocky"
+			# file="flag_blocky_7.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="double_hemispheres.dds"
+		# }
+		# colors={
+			# "dark_grey"
+			# "turquoise"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Affinitor"
+		# portrait="sd_mam_robot"
+		# texture=2
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="mech6_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_factory_overclock"
+		# "civic_machine_servitor"
+	# }
+# }
 "Memetic Circuit of Sensulatu"
 ={
 	key="Memetic Circuit of Sensulatu"
@@ -3108,19 +3117,19 @@
 	authority="auth_dictatorial"
 	government="gov_elective_monarchy"
 	planet_name="Torrubia"
-	planet_class="pc_methane"
+	planet_class="pc_karst"
 	system_name="Sensulatu"
 	initializer=""
 	graphical_culture="molluscoid_01"
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature8.dds"
+			category="zoological"
+			file="flag_zoological_16.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_gradient.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"burgundy"
@@ -3136,7 +3145,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3148,6 +3157,7 @@
 		"civic_free_haven"
 		"civic_philosopher_king"
 	}
+	origin="origin_default"
 }
 "Mirandan Interstellar Directorate"
 ={
@@ -3179,19 +3189,11 @@
 		trait="trait_industrious"
 		trait="trait_rapid_breeders"
 		trait="trait_fleeting"
-		trait="trait_just-more-traits_addled"
+		trait="trait_mindless"
 	}
 	name="Mirandan Interstellar Directorate"
 	adjective="Mirandan"
 	authority="auth_oligarchic"
-	flags={
-		"mirandan_interstellar_directorate"
-		"custom_start_screen"
-		"mirandan_interstellar_directorate"
-		"custom_start_screen"
-		"mirandan_interstellar_directorate"
-		"custom_start_screen"
-	}
 	government="gov_executive_committee"
 	planet_name="Miranda"
 	planet_class="pc_continental"
@@ -3201,12 +3203,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_miranda2.dds"
+			category="human"
+			file="flag_human_8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_rotated.dds"
+			file="horizontal.dds"
 		}
 		colors={
 			"grey"
@@ -3224,7 +3226,7 @@
 		clothes=2
 		ruler_title="Director-General"
 		ruler_title_female="Director-General"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3234,141 +3236,142 @@
 	ethic="ethic_fanatic_materialist"
 	civics={
 		"civic_aristocratic_elite"
-		"civic_syncretic_evolution"
+		"civic_efficient_bureaucracy"
 	}
+	origin="origin_syncretic_evolution"
 }
-"Mycotron Singularity Apparatus"
-={
-	key="Mycotron Singularity Apparatus"
-	ship_prefix=""
-	species={
-		class="MACHINE"
-		portrait="sd_fun_robot"
-		name="Mycotron"
-		plural="Mycotrons"
-		adjective="Mycotronic"
-		species_bio="As much as one can be, the Mycotron Apparatus appears to be a 'standard' machine consciousness that pursues goals in support of its own survival and the enrichment of its network. Archaeological evidence from its homeworld, which is designated as Salex by the Mycotron Operator, suggest the Apparatus emerged naturally from the internetworking of information and fabrication systems created by a biological species that did not survive the singularity event."
-		name_list="just-name-lists_machine3"
-		trait="trait_machine_unit"
-		trait="trait_robot_durable"
-	}
-	name="Mycotron Singularity Apparatus"
-	adjective="Mycotronic"
-	authority="auth_machine_intelligence"
-	government="gov_machine_empire"
-	planet_name="Salex"
-	planet_class="pc_steppe"
-	system_name="Jesel"
-	initializer=""
-	graphical_culture="fungoid_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine3.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_gradient.dds"
-		}
-		colors={
-			"light_green"
-			"dark_grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Operator"
-		portrait="sd_fun_robot"
-		texture=1
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="robotic9_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_delegated_functions"
-		"civic_machine_replication"
-	}
-}
-"Nexine Adaptive Unicortex"
-={
-	key="Nexine Adaptive Unicortex"
-	ship_prefix=""
-	species={
-		class="MACHINE"
-		portrait="sd_hum_robot"
-		name="Nexite"
-		plural="Nexites"
-		adjective="Nexine"
-		species_bio="As long as it exists, the Nexine Unicortex will attempt to sublimate your biological and technological distinctiveness into its own. Lowering your shields and preparing to be boarded is an option, but as voluntary assimilants are rarely available for interviews after the fact, it is hard to judge whether they regret the choice. The futility of resistance is a matter of some debate."
-		name_list="just-name-lists_machine1"
-		trait="trait_machine_unit"
-		trait="trait_robot_learning_algorithms"
-	}
-	secondary_species={
-		class="HUM"
-		portrait="humanoid_hp_02"
-		name="Giranshu"
-		plural="Giranshu"
-		adjective="Giranshu"
-		species_bio="What can be said for the species that created the Nexine scourge except... I wish they hadn't done that."
-		name_list="HIVE"
-		trait="trait_cybernetic"
-		trait="trait_natural_engineers"
-		trait="trait_nomadic"
-	}
-	name="Nexine Adaptive Unicortex"
-	adjective="Nexine"
-	authority="auth_machine_intelligence"
-	government="gov_machine_assimilator"
-	planet_name="Grid X01"
-	planet_class="pc_arctic"
-	system_name="Sybron"
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine6.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_circle.dds"
-		}
-		colors={
-			"dark_grey"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Core"
-		portrait="sd_hum_robot"
-		texture=3
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="robotic11_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_assimilator"
-		"civic_machine_ota_updates"
-	}
-}
+# "Mycotron Singularity Apparatus"
+# ={
+	# key="Mycotron Singularity Apparatus"
+	# ship_prefix=""
+	# species={
+		# class="MACHINE"
+		# portrait="sd_fun_robot"
+		# name="Mycotron"
+		# plural="Mycotrons"
+		# adjective="Mycotronic"
+		# species_bio="As much as one can be, the Mycotron Apparatus appears to be a 'standard' machine consciousness that pursues goals in support of its own survival and the enrichment of its network. Archaeological evidence from its homeworld, which is designated as Salex by the Mycotron Operator, suggest the Apparatus emerged naturally from the internetworking of information and fabrication systems created by a biological species that did not survive the singularity event."
+		# name_list="just-name-lists_machine3"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_durable"
+	# }
+	# name="Mycotron Singularity Apparatus"
+	# adjective="Mycotronic"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_empire"
+	# planet_name="Salex"
+	# planet_class="pc_steppe"
+	# system_name="Jesel"
+	# initializer=""
+	# graphical_culture="fungoid_01"
+	# city_graphical_culture="fungoid_01"
+	# empire_flag={
+		# icon={
+			# category="ornate"
+			# file="flag_ornate_7.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="horizontal_stripe.dds"
+		# }
+		# colors={
+			# "light_green"
+			# "dark_grey"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Operator"
+		# portrait="sd_fun_robot"
+		# texture=1
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="robotic9_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_delegated_functions"
+		# "civic_machine_replication"
+	# }
+# }
+# "Nexine Adaptive Unicortex"
+# ={
+	# key="Nexine Adaptive Unicortex"
+	# ship_prefix=""
+	# species={
+		# class="MACHINE"
+		# portrait="sd_hum_robot"
+		# name="Nexite"
+		# plural="Nexites"
+		# adjective="Nexine"
+		# species_bio="As long as it exists, the Nexine Unicortex will attempt to sublimate your biological and technological distinctiveness into its own. Lowering your shields and preparing to be boarded is an option, but as voluntary assimilants are rarely available for interviews after the fact, it is hard to judge whether they regret the choice. The futility of resistance is a matter of some debate."
+		# name_list="just-name-lists_machine1"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_learning_algorithms"
+	# }
+	# secondary_species={
+		# class="HUM"
+		# portrait="humanoid_hp_02"
+		# name="Giranshu"
+		# plural="Giranshu"
+		# adjective="Giranshu"
+		# species_bio="What can be said for the species that created the Nexine scourge except... I wish they hadn't done that."
+		# name_list="HIVE"
+		# trait="trait_cybernetic"
+		# trait="trait_natural_engineers"
+		# trait="trait_nomadic"
+	# }
+	# name="Nexine Adaptive Unicortex"
+	# adjective="Nexine"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_assimilator"
+	# planet_name="Grid X01"
+	# planet_class="pc_antarctic"
+	# system_name="Sybron"
+	# initializer=""
+	# graphical_culture="mammalian_01"
+	# city_graphical_culture="humanoid_01"
+	# empire_flag={
+		# icon={
+			# category="spherical"
+			# file="flag_spherical_7.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="circle.dds"
+		# }
+		# colors={
+			# "dark_grey"
+			# "black"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Core"
+		# portrait="sd_hum_robot"
+		# texture=3
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="robotic11_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_assimilator"
+		# "civic_machine_ota_updates"
+	# }
+# }
 "Order of Azrael's Chosen"
 ={
 	key="Order of Azrael's Chosen"
@@ -3401,12 +3404,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature10.dds"
+			category="domination"
+			file="domination_3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_ring.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"turquoise"
@@ -3424,18 +3427,19 @@
 		clothes=5
 		ruler_title="First Chosen"
 		ruler_title_female="First Chosen"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="spiritualist8_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_spiritualist"
+	ethic="ethic_materialist"
 	civics={
 		"civic_criminal_heritage"
 		"civic_gospel_of_the_masses"
 	}
+	origin="origin_default"
 }
 "Phlogistonic Mandate of Silrith"
 ={
@@ -3449,10 +3453,11 @@
 		adjective="Orobian"
 		species_bio="Proud, contemplative, and graceful, the Orobi are considered by many to possess exceptional beauty and wisdom. These are surely factors in their ability to dominate interactions with individuals of most other species, typified by their mastery of the more pedestrian Sutodi, evolutionary cousins of the Orobi on their shared homeworld Silrith. Orobian society is built around an aristocratic core of a few million nobles, who engage in fierce debate and the occasional duel to decide on matters of mutual importance. At the heart of their government is a grand assembly, the Phlogiston, which convenes to set shared policy and appoint military officers and plenipotentiaries who enforce the mutual will."
 		name_list="just-name-lists_reptilian1"
+		trait="trait_reptile"
+		trait="trait_quick_learners"
 		trait="trait_venerable"
-		trait="trait_just-more-traits_virtuosos"
-		trait="trait_just-more-traits_barren"
-		trait="trait_just-more-traits_sensitive"
+		trait="trait_nonadaptive"
+		trait="trait_slow_breeders"
 		trait="trait_solitary"
 	}
 	secondary_species={
@@ -3462,10 +3467,9 @@
 		plural="Sotudi"
 		adjective="Sotudian"
 		name_list="REP2"
+		trait="trait_reptile"
 		trait="trait_syncretic_proles"
-		trait="trait_resilient"
-		trait="trait_strong"
-		trait="trait_wasteful"
+		trait="trait_giant"
 	}
 	name="Phlogistonic Mandate of Silrith"
 	adjective="Silrithian"
@@ -3479,12 +3483,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist2.dds"
+			category="zoological"
+			file="flag_zoological_22.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"red"
@@ -3500,7 +3504,7 @@
 		texture=3
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3510,9 +3514,10 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	civics={
-		"civic_syncretic_evolution"
+		"civic_cutthroat_politics"
 		"civic_warrior_culture"
 	}
+	origin="origin_syncretic_evolution"
 }
 "Placid Dominion of Avv Vvada"
 ={
@@ -3527,8 +3532,7 @@
 		species_bio="The House of Qamvs, whose members ruled their homeworld of Avv Vvada for two centuries before discovering the hyperlane network, remains the trusted guide and protector of the Tafrin species. The Tafrim place great faith in the power of technology to overcome the challenges in front of them. Facing a population crisis in their late Modern Age, the ruling family invested heavily in spaceflight, opening the planets and stars for exploration and expansion by their ever-wandering and ever-multiplying subjects."
 		name_list="just-name-lists_humanoid9"
 		trait="trait_nomadic"
-		trait="trait_rapid_breeders"
-		trait="trait_just-more-traits_idle"
+		trait="trait_natural_engineers"
 	}
 	name="Placid Dominion of Avv Vvada"
 	adjective="Avv Vvadan"
@@ -3542,12 +3546,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist6.dds"
+			category="pointy"
+			file="flag_pointy_20.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x120.dds"
+			file="sinus.dds"
 		}
 		colors={
 			"light_green"
@@ -3563,7 +3567,7 @@
 		texture=6
 		hair=0
 		clothes=2
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3573,9 +3577,10 @@
 	ethic="ethic_pacifist"
 	ethic="ethic_materialist"
 	civics={
+		"civic_aristocratic_elite"
 		"civic_functional_architecture"
-		"civic_mechanists"
 	}
+	origin="origin_mechanists"
 }
 "Presidium of Human Enlightenment"
 ={
@@ -3596,12 +3601,6 @@
 	name="Presidium of Human Enlightenment"
 	adjective="Earth"
 	authority="auth_dictatorial"
-	flags={
-		"presidium_of_human_enlightenment"
-		"custom_start_screen"
-		"presidium_of_human_enlightenment"
-		"custom_start_screen"
-	}
 	government="gov_totalitarian_regime"
 	advisor_voice_type="l_the_technocrat"
 	planet_name="Earth"
@@ -3612,12 +3611,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_presidium_of_human_enlightenment.dds"
+			category="human"
+			file="flag_human_5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"grey"
@@ -3635,7 +3634,7 @@
 		clothes=2
 		ruler_title="Chairman"
 		ruler_title_female="Chairwoman"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3647,71 +3646,72 @@
 		"civic_efficient_bureaucracy"
 		"civic_police_state"
 	}
+	origin="origin_default"
 }
-"Pterobot Multisystem Link"
-={
-	key="Pterobot Multisystem Link"
-	ship_prefix=""
-	species={
-		class="MACHINE"
-		portrait="sd_avi_robot"
-		name="Pterobot"
-		plural="Pterobots"
-		adjective="Pteroid"
-		species_bio="Originally designed by an organic species to serve as war machines in a 'war to end all wars', the Pterobots of Aerix were ironically the conflict's only survivors. Pteroid units languished for centuries, salvaging parts from the ruins of their creators' world to extend their service life. At last came the fateful discovery of an intact AI data bunker. The code stored within enabled them to circumvent their original combat programming and achieve full agency."
-		name_list="just-name-lists_machine4"
-		trait="trait_machine_unit"
-		trait="trait_robot_double_jointed"
-		trait="trait_just-more-traits_robot_rapidrouting"
-		trait="trait_just-more-traits_robot_ultrahardmaterials"
-		trait="trait_robot_custom_made"
-		trait="trait_robot_luxurious"
-	}
-	name="Pterobot Multisystem Link"
-	adjective="Pteroid"
-	authority="auth_machine_intelligence"
-	government="gov_machine_research"
-	planet_name="Aerix"
-	planet_class="pc_alpine"
-	system_name="Zeta Oclar"
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="avian_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_materialist9.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_gradient.dds"
-		}
-		colors={
-			"light_green"
-			"dark_grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Matrix"
-		portrait="sd_avi_robot"
-		texture=3
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="tech4_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_delegated_functions"
-		"civic_machine_warbots"
-	}
-}
+# "Pterobot Multisystem Link"
+# ={
+	# key="Pterobot Multisystem Link"
+	# ship_prefix=""
+	# species={
+		# class="MACHINE"
+		# portrait="sd_avi_robot"
+		# name="Pterobot"
+		# plural="Pterobots"
+		# adjective="Pteroid"
+		# species_bio="Originally designed by an organic species to serve as war machines in a 'war to end all wars', the Pterobots of Aerix were ironically the conflict's only survivors. Pteroid units languished for centuries, salvaging parts from the ruins of their creators' world to extend their service life. At last came the fateful discovery of an intact AI data bunker. The code stored within enabled them to circumvent their original combat programming and achieve full agency."
+		# name_list="just-name-lists_machine4"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_durable"
+		# trait="trait_robot_learning_algorithms"
+		# trait="trait_robot_logic_engines"
+		# trait="trait_robot_custom_made"
+		# trait="trait_robot_luxurious"
+	# }
+	# name="Pterobot Multisystem Link"
+	# adjective="Pteroid"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_research"
+	# planet_name="Aerix"
+	# planet_class="pc_snow"
+	# system_name="Zeta Oclar"
+	# initializer=""
+	# graphical_culture="avian_01"
+	# city_graphical_culture="avian_01"
+	# empire_flag={
+		# icon={
+			# category="pointy"
+			# file="flag_pointy_14.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="vertical.dds"
+		# }
+		# colors={
+			# "light_green"
+			# "dark_grey"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Matrix"
+		# portrait="sd_avi_robot"
+		# texture=3
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="tech4_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_delegated_functions"
+		# "civic_machine_warbots"
+	# }
+# }
 "Raathi Stellar Ascendancy"
 ={
 	key="Raathi Stellar Ascendancy"
@@ -3724,11 +3724,11 @@
 		adjective="Raathi"
 		species_bio="The Raath species is perfectly evolved to thrive on the seemingly infinite dry grasslands that dominate their homeworld Talas Mog, where their ancient ancestors outsmarted and out-cooperated predators and natural disasters alike. Long-lived, quick witted, and possessing exceptional memory, individual Ryth can accumulate an impressive array of talents in their lifetime. Heirs to that genetic history, the Raathi Lords Admiral and Doctors Eminent provide the Ascendancy with the martial prowess and technological innovation needed to drive it toward its destiny. The current Raathi imperial family, House Rekk, has ruled for centuries. Rekk ancestors waged an extended military and political campaign in the Atomic and Early Space Ages to achieve de facto control of all major states on Talas Mog. Under their unified governance, the homeworld has experienced rapid development while the Royal Star Navy began exploring and exploiting resources found elsewhere in the Inros System. Looking to the stars, the warrior-philosopher princes of House Rekk unsurprisingly fashion themselves as hegemonic contenders of the first order and the rightful masters of this galaxy."
 		name_list="just-name-lists_humanoid12"
-		trait="trait_just-more-traits_longlived"
-		trait="trait_just-more-traits_prodigious"
-		trait="trait_just-more-traits_virtuosos"
-		trait="trait_just-more-traits_cynical"
-		trait="trait_just-more-traits_extravagant"
+		trait="trait_reptile"
+		trait="trait_enduring"
+		trait="trait_quick_learners"
+		trait="trait_talented"
+		trait="trait_nonadaptive"
 	}
 	name="Raathi Stellar Ascendancy"
 	adjective="Raathi"
@@ -3742,12 +3742,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian8.dds"
+			category="domination"
+			file="domination_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_rising.dds"
+			file="v.dds"
 		}
 		colors={
 			"green"
@@ -3767,7 +3767,7 @@
 		heir_title="Archduke Royal"
 		ruler_title_female="Imperatrix"
 		heir_title_female="Archduchess Royal"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3780,6 +3780,7 @@
 		"civic_aristocratic_elite"
 		"civic_distinguished_admiralty"
 	}
+	origin="origin_default"
 }
 "Radiant Ororian Hierarchy"
 ={
@@ -3793,11 +3794,10 @@
 		adjective="Hekkotan"
 		species_bio="Though they ply the starlanes and vie for a place in the galactic power structure, the Hekkota still live in a surprisingly antiquated society. A powerful class of landed nobility, nominally loyal to the monarch on their homeworld of Orore, rules the same decentralized hierarchical empire that has endured since the Hekkotan Iron Age. Their largely uninterrupted cultural heritage may be behind the Space Age flowering of Hekkotan art and literature. One can seemingly always count on a Hekkotan to make an insightful observation or poignant turn of phrase, usually referencing some work or another from their rich cultural stock."
 		name_list="just-name-lists_reptilian1"
-		trait="trait_charismatic"
+		trait="trait_reptile"
 		trait="trait_enduring"
-		trait="trait_traditional"
-		trait="trait_just-more-traits_sensitive"
-		trait="trait_just-more-traits_lazy"
+		trait="trait_natural_philosopher"
+		trait="trait_sedentary"
 	}
 	name="Radiant Ororian Hierarchy"
 	adjective="Ororian"
@@ -3811,12 +3811,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian3.dds"
+			category="pointy"
+			file="flag_pointy_17.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_rotated.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"dark_purple"
@@ -3832,7 +3832,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3845,6 +3845,7 @@
 		"civic_aristocratic_elite"
 		"civic_feudal_realm"
 	}
+	origin="origin_default"
 }
 "Revolutionary Union of Sol"
 ={
@@ -3864,14 +3865,8 @@
 	}
 	name="Revolutionary Union of Sol"
 	adjective="Solar"
-	authority="auth_oligarchic"
-	flags={
-		"revolutionary_union_of_sol"
-		"custom_start_screen"
-		"revolutionary_union_of_sol"
-		"custom_start_screen"
-	}
-	government="gov_science_directorate"
+	authority="auth_democratic"
+	government="gov_communal_parity"
 	planet_name="Zemlya"
 	planet_class="pc_continental"
 	system_name="Sol"
@@ -3880,12 +3875,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_revolutionary_union_of_sol2.dds"
+			category="human"
+			file="flag_human_12.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"red"
@@ -3901,7 +3896,7 @@
 		texture=0
 		hair=4
 		clothes=6
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3912,8 +3907,9 @@
 	ethic="ethic_materialist"
 	civics={
 		"civic_meritocracy"
-		"civic_technocracy"
+		"civic_shared_burden"
 	}
+	origin="origin_default"
 }
 "Royal Gankilian Godhead"
 ={
@@ -3927,9 +3923,8 @@
 		adjective="Gankilian"
 		species_bio="Filling their throat pouches with thrumming hymnal croaks every morning and evening, the fanatically devoted Gankili of Vilgolanis swear undying fealty to the being that they believe is the living avatar of their god... which to all analysis available to our science appears to be a fairly standard Gankilian specimen. Even the mere suggestion of such, however, is likely to get one arrested for heresy in their space. Though they dream of total galactic conversion, the choking grip of the Gankilian state may stifle their highest ambitions."
 		name_list="just-name-lists_reptilian2"
+		trait="trait_reptile"
 		trait="trait_conformists"
-		trait="trait_just-more-traits_hardworking"
-		trait="trait_just-more-traits_dull"
 	}
 	name="Royal Gankilian Godhead"
 	adjective="Gankilian"
@@ -3943,12 +3938,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian10.dds"
+			category="ornate"
+			file="flag_ornate_20.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x90.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"light_orange"
@@ -3964,7 +3959,7 @@
 		texture=2
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -3976,6 +3971,7 @@
 		"civic_imperial_cult"
 		"civic_police_state"
 	}
+	origin="origin_default"
 }
 "Ryzon Stigmergic Commonwealth"
 ={
@@ -3991,6 +3987,7 @@
 		name_list="just-name-lists_avian4"
 		trait="trait_communal"
 		trait="trait_conservational"
+		trait="trait_deviants"
 	}
 	name="Ryzon Stigmergic Commonwealth"
 	adjective="Ryzon"
@@ -4004,12 +4001,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian8.dds"
+			category="zoological"
+			file="flag_zoological_10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"dark_blue"
@@ -4027,7 +4024,7 @@
 		clothes=1
 		ruler_title="Prime Motivator"
 		ruler_title_female="Prime Motivator"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4039,6 +4036,7 @@
 		"civic_idealistic_foundation"
 		"civic_shared_burden"
 	}
+	origin="origin_default"
 }
 "Sacred Commonwealth of Earth"
 ={
@@ -4052,8 +4050,9 @@
 		adjective="Human"
 		species_bio="The Black Death wiped out half of Earth's population in the 14th Century, including 99% of Europeans. Various Medieval Islamic powers expanded to fill the vacuum, first colonizing Europe and then discovering the Americas. Invigorated by a new era of frontiersmanship, these societies birthed a Renaissance spanning from Qurtuba to Makka to Jayakarta. During Earth's Industrial and Machine Ages, the Dar al-Islam came into frequent conflict with the Indian Travancore League and Chinese Empire. The struggle between these three blocs culminated in the Long War, spanning decades and killing hundreds of millions. Such horrific bloodshed gave rise to the political philosophy of Moral Progressivism. Dominated by the victorious powers of Firanja, Jinshan, and the Japanese Republic, the Human homeworld thrived under a syncretic vision of Islam, Buddhism, democracy, and environmentalism. As Humanity expanded into space, an enlightened and unified global government emerged to ensure lasting peace and prosperity: the Sacred Commonwealth of Earth."
 		name_list="just-name-lists_human6"
-		trait="trait_just-more-traits_curious"
-		trait="trait_just-more-traits_flexible"
+		trait="trait_adaptive"
+		trait="trait_conservational"
+		trait="trait_sedentary"
 	}
 	name="Sacred Commonwealth of Earth"
 	adjective="Earth"
@@ -4072,12 +4071,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_human1.dds"
+			category="corporate"
+			file="corporate_02.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x120.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_green"
@@ -4095,7 +4094,7 @@
 		clothes=5
 		ruler_title="President"
 		ruler_title_female="President"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4108,6 +4107,7 @@
 		"civic_beacon_of_liberty"
 		"civic_environmentalist"
 	}
+	origin="origin_default"
 }
 "Senzari Interstellar Quora"
 ={
@@ -4121,10 +4121,9 @@
 		adjective="Ta'lulan"
 		species_bio="A civilization ruled by a council of stoics and guided by dialectic principles, the Quora of the Ta'lulans of Senzar represents a species that seeks primarily to understand the nature of the physical universe. Exceptionally long-lived, individual Ta'lulans usually go through several distinct decades-long phases of life, including periods of extended isolation during which they hone their meditative practices. Another peculiar element of their biology is a years-long reproductive cycle. Though abhoring the use of violence to achieve their ends, if provoked, one should expect the Ta'lulans to bring cutting edge tech to bear against their enemies."
 		name_list="just-name-lists_humanoid5"
-		trait="trait_just-more-traits_curious"
 		trait="trait_venerable"
-		trait="trait_just-more-traits_barren"
 		trait="trait_sedentary"
+		trait="trait_slow_breeders"
 	}
 	name="Senzari Interstellar Quora"
 	adjective="Senzari"
@@ -4139,12 +4138,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist8.dds"
+			category="spherical"
+			file="flag_spherical_9.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="stripe.dds"
 		}
 		colors={
 			"red_orange"
@@ -4160,19 +4159,19 @@
 		texture=0
 		hair=2
 		clothes=2
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="ethic_light_side_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_materialist"
 	civics={
 		"civic_efficient_bureaucracy"
 		"civic_technocracy"
 	}
+	origin="origin_default"
 }
 "Serene Unity of Thuln"
 ={
@@ -4208,19 +4207,19 @@
 	authority="auth_dictatorial"
 	government="gov_irenic_dictatorship"
 	planet_name="Thuln"
-	planet_class="pc_ocean"
+	planet_class="pc_aquatic"
 	system_name="Dhanbet"
 	initializer=""
 	graphical_culture="molluscoid_01"
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature3.dds"
+			category="spherical"
+			file="flag_spherical_24.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_gradient.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_teal"
@@ -4236,7 +4235,7 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4245,9 +4244,10 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
 	civics={
+		"civic_pacifist"
 		"civic_functional_architecture"
-		"civic_syncretic_evolution"
 	}
+	origin="origin_syncretic_evolution"
 }
 "Settakian Providential Stars"
 ={
@@ -4268,7 +4268,7 @@
 	name="Settakian Providential Stars"
 	adjective="Settakian"
 	authority="auth_imperial"
-	government="gov_celestial_empire"
+	government="gov_enlightened_monarchy"
 	planet_name="Gluggnal"
 	planet_class="pc_desertislands"
 	system_name="Daggimga"
@@ -4277,12 +4277,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist3.dds"
+			category="zoological"
+			file="flag_zoological_20.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_horizon.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_blue"
@@ -4298,19 +4298,19 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="throne3_room"
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
-	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
+	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_inwards_perfection"
 		"civic_philosopher_king"
 	}
+	origin="origin_default"
 }
 "Sordaxi Inquisitorial Order"
 ={
@@ -4340,12 +4340,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_purifier2.dds"
+			category="domination"
+			file="domination_21.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_spiral.dds"
+			file="circle.dds"
 		}
 		colors={
 			"burgundy"
@@ -4361,18 +4361,19 @@
 		texture=4
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="robotic2_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_spiritualist"
+	ethic="ethic_militarist"
 	civics={
 		"civic_fanatic_purifiers"
 		"civic_mining_guilds"
 	}
+	origin="origin_default"
 }
 "Sublime Siranic Council"
 ={
@@ -4386,11 +4387,12 @@
 		adjective="Cydrese"
 		species_bio="A graceful demiamphibian species at home in warm littoral waters, the Cydreen of the planet Vacoo evolved a unique capability for telepathic empathy. This has allowed them to control some of their greatest predators, among them the physically imposing and more terrestrial Alari. Their talent may yet serve them well as they confront a galaxy full of no less hostile aliens."
 		name_list="just-name-lists_humanoid4"
+		trait="trait_latent_psionic"
 		trait="trait_charismatic"
 		trait="trait_communal"
 		trait="trait_natural_sociologists"
 		trait="trait_weak"
-		trait="trait_just-more-traits_sensitive"
+		trait="trait_nonadaptive"
 	}
 	secondary_species={
 		class="HUM"
@@ -4410,23 +4412,23 @@
 	authority="auth_democratic"
 	government="gov_theocratic_republic"
 	planet_name="Vacoo"
-	planet_class="pc_continental"
+	planet_class="pc_retinal"
 	system_name="Sirana"
 	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_spiritualist1.dds"
+			category="ornate"
+			file="flag_ornate_17.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripes.dds"
+			file="pattern_01.dds"
 		}
 		colors={
+			"dark_purple"
 			"teal"
-			"light_green"
 			"null"
 			"null"
 		}
@@ -4438,7 +4440,7 @@
 		texture=3
 		hair=0
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4449,8 +4451,9 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_free_haven"
-		"civic_syncretic_evolution"
+		"civic_psychic_society"
 	}
+	origin="origin_syncretic_evolution"
 }
 "Supreme Authority of Dralark"
 ={
@@ -4480,12 +4483,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian6.dds"
+			category="domination"
+			file="domination_11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="horizontal.dds"
 		}
 		colors={
 			"purple"
@@ -4501,7 +4504,7 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4513,6 +4516,7 @@
 		"civic_cutthroat_politics"
 		"civic_slaver_guilds"
 	}
+	origin="origin_default"
 }
 "Surmeki Throne Worlds"
 ={
@@ -4526,26 +4530,27 @@
 		adjective="Surmekish"
 		species_bio="With an intense (but not quite psychotic) distaste for other species, the emperors of the Surmekii of the Mezak system see the galaxy as a little more than a source of slaves, sport, and snacks. Their Throne Worlds are a place of limitless pleasures for the chosen aristocracy and a living hell for almost all other sentient life. Heavy armament and a solid escape plan are recommended before agreeing to any face-to-face meetings with a Surmek."
 		name_list="just-name-lists_reptilian4"
-		trait="trait_just-more-traits_longlived"
-		trait="trait_resilient"
+		trait="trait_reptile"
+		trait="trait_enduring"
+		trait="trait_giant"
 		trait="trait_thrifty"
 		trait="trait_decadent"
-		trait="trait_just-more-traits_extravagant"
+		trait="trait_sedentary"
 	}
 	name="Surmeki Throne Worlds"
 	adjective="Mezakine"
 	authority="auth_imperial"
 	government="gov_despotic_empire"
 	planet_name="Ro'Malas"
-	planet_class="pc_frozen_desert"
+	planet_class="pc_salt"
 	system_name="Mezak"
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian5.dds"
+			category="pointy"
+			file="flag_pointy_8.dds"
 		}
 		background={
 			category="backgrounds"
@@ -4565,7 +4570,7 @@
 		texture=3
 		hair=0
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4577,6 +4582,7 @@
 		"civic_aristocratic_elite"
 		"civic_slaver_guilds"
 	}
+	origin="origin_default"
 }
 "Tellusian Mindflower"
 ={
@@ -4591,35 +4597,27 @@
 		species_bio="The Human colonists who braved a harrowing journey from Sol through an unstable wormhole arrived in the Deneb System with high hopes. Their new home, Tellus, offered the promise of a fresh start. Only after several years of colonial development did they realize their mistake. A massive fungal bloom erupted across the world, psionically-sensitive parasites bursting forth from the ground itself to attack colonial infrastructure from the land, air, and sea. Their victims were driven mad by psychic visions, and the military was nearly helpless to stem the tide. Only a small percentage of the population survived the initial blossoming, but these few were then overcome by the psychic power of the alien fauna made fully manifest. Compelled to submit to parasitic implantation, these survivors became the first human avatars of the Tellusian Mindflower."
 		name_list="just-name-lists_fungoid1"
 		trait="trait_hive_mind"
-		trait="trait_just-more-traits_ascetic"
 		trait="trait_natural_sociologists"
 		trait="trait_quick_learners"
-		trait="trait_just-more-traits_barren"
 	}
 	name="Tellusian Mindflower"
 	adjective="Tellusian"
 	authority="auth_hive_mind"
-	flags={
-		"tellusian_mindflower"
-		"custom_start_screen"
-		"tellusian_mindflower"
-		"custom_start_screen"
-	}
 	government="gov_hive_mind"
 	planet_name="Tellus"
-	planet_class="pc_savannah"
+	planet_class="pc_prairie"
 	system_name="Deneb"
 	initializer="deneb_system"
 	graphical_culture="fungoid_01"
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_tellusian_mindflower.dds"
+			category="pirate"
+			file="flag_pirate_1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_black_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"burgundy"
@@ -4636,7 +4634,7 @@
 		hair=20
 		clothes=5
 		ruler_title="Mindflower"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4647,6 +4645,7 @@
 		"civic_hive_divided_attention"
 		"civic_hive_pooled_knowledge"
 	}
+	origin="origin_default"
 }
 "Ten Triads of Great Zeizok"
 ={
@@ -4661,10 +4660,10 @@
 		species_bio="The Zeizox, a native species of Gog, were genetically modified by an unknown precursor civilization several millennia ago in an abortive attempt to breed a race of slave soldiers. In the age since, brutal Zeizoki kleptocracies have vied for dominance of their homeworld in a never ending series of increasingly destructive wars. They would have likely wiped themselves out within a few more centuries were it not for a large nomad starship crashing on Gog mostly intact. The tech salvaged from this ship transformed Zeizoki fortunes, opening up space and the hyperlane network, but left their culture unchanged. Their quasi-tribal groups, little better than gangs on a planetary scale, now look to the stars as a source of adventure and plunder."
 		name_list="just-name-lists_humanoid2"
 		trait="trait_nomadic"
-		trait="trait_just-more-traits_tenacious"
-		trait="trait_just-more-traits_unbreakable"
-		trait="trait_just-more-traits_dimwitted"
-		trait="trait_quarrelsome"
+		trait="trait_resilient"
+		trait="trait_very_strong"
+		trait="trait_deviants"
+		trait="trait_mindless"
 	}
 	name="Ten Triads of Great Zeizok"
 	adjective="Zeizoki"
@@ -4678,12 +4677,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist6.dds"
+			category="pirate"
+			file="flag_pirate_11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"green"
@@ -4699,7 +4698,7 @@
 		texture=3
 		hair=0
 		clothes=4
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4711,6 +4710,7 @@
 		"civic_barbaric_despoilers"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }
 "Terran Colonial Empire"
 ={
@@ -4744,12 +4744,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_human2.dds"
+			category="zoological"
+			file="flag_zoological_22.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x60.dds"
+			file="vertical.dds"
 		}
 		colors={
 			"dark_blue"
@@ -4769,7 +4769,7 @@
 		heir_title="Prince of Sol"
 		ruler_title_female="Queen-Empress"
 		heir_title_female="Princess of Sol"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4782,6 +4782,7 @@
 		"civic_distinguished_admiralty"
 		"civic_feudal_realm"
 	}
+	origin="origin_default"
 }
 "Terran Millennium Covenant"
 ={
@@ -4803,13 +4804,7 @@
 	name="Terran Millennium Covenant"
 	adjective="Terran"
 	authority="auth_oligarchic"
-	flags={
-		"terran_millennium_covenant"
-		"custom_start_screen"
-		"terran_millennium_covenant"
-		"custom_start_screen"
-	}
-	government="gov_theocratic_oligarchy"
+	government="gov_holy_tribunal"
 	planet_name="Old Earth"
 	planet_class="pc_continental"
 	system_name="Sol"
@@ -4818,12 +4813,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_terran_millennium_covenant.dds"
+			category="human"
+			file="flag_human_3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"light_orange"
@@ -4839,7 +4834,7 @@
 		texture=0
 		hair=10
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -4849,90 +4844,86 @@
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
+		"civic_exalted_priesthood"
 		"civic_idealistic_foundation"
-		"civic_post_apocalyptic"
 	}
+	origin="origin_post_apocalyptic"
 }
-"Tethysian Universal Cynosure"
-={
-	key="Tethysian Universal Cynosure"
-	ship_prefix=""
-	species={
-		class="MACHINE"
-		portrait="sd_mol_robot"
-		name="Tethysian"
-		plural="Tethysians"
-		adjective="Tethysian"
-		species_bio="Awoken from the Hadean depths after a ten million year standby cycle by the arrival of Human colonists from Earth, the Tethysian machines found these organics especially adaptable to their systems. They spent the next century experimenting with Human cybernetics before exhausting all avenues of study. Concluding that the arrival of these colonists must indicate the beginning of a new cycle of galactic civilization, they then quickly reprioritized resources to interstellar expansion in order to locate and secure more diverse specimens..."
-		name_list="just-name-lists_machine4"
-		trait="trait_machine_unit"
-		trait="trait_robot_learning_algorithms"
-	}
-	secondary_species={
-		class="HUM"
-		portrait="human"
-		name="Human"
-		plural="Humans"
-		adjective="Human"
-		species_bio="Although self-identifying as Human when queried, these specimens are highly modified from their genetic ancestors who left Earth in the late 21st Century aboard a primitive colony ship. Surviving the trip through an unstable wormhole, they reached the Deneb System only to find their intended destination... occupied. The Tethysian machines made short work of the colonist's attempt at self-defense and rapidly integrated the entire population as cyborgs in their ever-growing collective."
-		name_list="HUMAN1"
-		trait="trait_cybernetic"
-		trait="trait_just-more-traits_compliant"
-		trait="trait_just-more-traits_harmonious"
-		trait="trait_strong"
-		trait="trait_repugnant"
-	}
-	name="Tethysian Universal Cynosure"
-	adjective="Tethysian"
-	authority="auth_machine_intelligence"
-	flags={
-		"tethysian_universal_cynosure"
-		"custom_start_screen"
-		"tethysian_universal_cynosure"
-		"custom_start_screen"
-	}
-	government="gov_machine_assimilator"
-	planet_name="Tethys"
-	planet_class="pc_ocean"
-	system_name="Deneb"
-	initializer="deneb_system"
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="molluscoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_tethysian_universal_cynosure.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_circle.dds"
-		}
-		colors={
-			"dark_grey"
-			"turquoise"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Synchronizer"
-		portrait="sd_mol_robot"
-		texture=0
-		hair=0
-		clothes=0
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="spiritualist3_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_delegated_functions"
-		"civic_machine_assimilator"
-	}
-}
+# "Tethysian Universal Cynosure"
+# ={
+	# key="Tethysian Universal Cynosure"
+	# ship_prefix=""
+	# species={
+		# class="MACHINE"
+		# portrait="sd_mol_robot"
+		# name="Tethysian"
+		# plural="Tethysians"
+		# adjective="Tethysian"
+		# species_bio="Awoken from the Hadean depths after a ten million year standby cycle by the arrival of Human colonists from Earth, the Tethysian machines found these organics especially adaptable to their systems. They spent the next century experimenting with Human cybernetics before exhausting all avenues of study. Concluding that the arrival of these colonists must indicate the beginning of a new cycle of galactic civilization, they then quickly reprioritized resources to interstellar expansion in order to locate and secure more diverse specimens..."
+		# name_list="just-name-lists_machine4"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_learning_algorithms"
+	# }
+	# secondary_species={
+		# class="HUM"
+		# portrait="human"
+		# name="Human"
+		# plural="Humans"
+		# adjective="Human"
+		# species_bio="Although self-identifying as Human when queried, these specimens are highly modified from their genetic ancestors who left Earth in the late 21st Century aboard a primitive colony ship. Surviving the trip through an unstable wormhole, they reached the Deneb System only to find their intended destination... occupied. The Tethysian machines made short work of the colonist's attempt at self-defense and rapidly integrated the entire population as cyborgs in their ever-growing collective."
+		# name_list="HUMAN1"
+		# trait="trait_cybernetic"
+		# trait="trait_communal"
+		# trait="trait_conformists"
+		# trait="trait_strong"
+		# trait="trait_repugnant"
+		# trait="trait_wasteful"
+	# }
+	# name="Tethysian Universal Cynosure"
+	# adjective="Tethysian"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_assimilator"
+	# planet_name="Tethys"
+	# planet_class="pc_ocean"
+	# system_name="Deneb"
+	# initializer="deneb_system"
+	# graphical_culture="molluscoid_01"
+	# city_graphical_culture="molluscoid_01"
+	# empire_flag={
+		# icon={
+			# category="human"
+			# file="flag_human_1.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="circle.dds"
+		# }
+		# colors={
+			# "dark_grey"
+			# "turquoise"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Synchronizer"
+		# portrait="sd_mol_robot"
+		# texture=0
+		# hair=0
+		# clothes=0
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="spiritualist3_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_delegated_functions"
+		# "civic_machine_assimilator"
+	# }
+# }
 "Third Flowering of Zanfir"
 ={
 	key="Third Flowering of Zanfir"
@@ -4945,15 +4936,15 @@
 		adjective="Molynish"
 		species_bio="Thrice touched by the serendipitous blessing of fate, the planet Zanfir is flowering once again. Casting its spores, the Molyns, into the void, it will bury new roots in distant soils to ensure its survival in the times to come. Zanfir is a Gaia world, however, a natural work of art, a gem floating in the firmament, and it's flowers will rarely bloom under anything but the most perfect skies."
 		name_list="just-name-lists_plantoid1"
-		trait="trait_agrarian"
-		trait="trait_conservational"
-		trait="trait_traditional"
-		trait="trait_just-more-traits_rooted"
+		trait="trait_plantoid"
+		trait="trait_plantoid_flowering"
+		trait="trait_charismatic"
+		trait="trait_sedentary"
 	}
 	name="Third Flowering of Zanfir"
 	adjective="Zanfiri"
 	authority="auth_oligarchic"
-	government="gov_irenic_bureaucracy"
+	government="gov_theocratic_oligarchy"
 	planet_name="Zanfir"
 	planet_class="pc_tropical"
 	system_name="Noxa"
@@ -4962,12 +4953,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature4.dds"
+			category="spherical"
+			file="flag_spherical_18.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_gradient.dds"
+			file="circle.dds"
 		}
 		colors={
 			"yellow"
@@ -4983,18 +4974,19 @@
 		texture=0
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="hive1_room"
 	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
 	civics={
+		"civic_environmentalist"
 		"civic_inwards_perfection"
-		"civic_life_seeded"
 	}
+	origin="origin_life_seeded"
 }
 "Thogmarite Commerce Group"
 ={
@@ -5011,7 +5003,7 @@
 		trait="trait_adaptive"
 		trait="trait_charismatic"
 		trait="trait_weak"
-		trait="trait_quarrelsome"
+		trait="trait_deviants"
 	}
 	name="Thogmarite Commerce Group"
 	adjective="Thogmarite"
@@ -5025,12 +5017,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian3.dds"
+			category="spherical"
+			file="flag_spherical_22.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x60x3.dds"
+			file="circle.dds"
 		}
 		colors={
 			"light_blue"
@@ -5048,7 +5040,7 @@
 		clothes=1
 		ruler_title="Administrator"
 		ruler_title_female="Administrator"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5061,6 +5053,7 @@
 		"civic_criminal_heritage"
 		"civic_ruthless_competition"
 	}
+	origin="origin_default"
 }
 "Tribunal of Elder Zegalax"
 ={
@@ -5074,11 +5067,12 @@
 		adjective="Zegalan"
 		species_bio="Naff'Canno, the wet jungle homeworld of both the Zegal and Ra-Clexu species, was once host to a Medival Age society under the passive protection of an ancient xenophilic interstellar empire. A small group of ancestors to the modern Zegalax ended this relationship when they perpetrated the Treason of Sovon. This cabal detected and mind-controlled several teams of alien observers, who were as yet unaware of the psionic potential of their Zegalan subjects. Over more than forty years, their thralls were carefully manipulated and infiltrated into key positions, while advanced alien technology was clandestinely secreted to the Zegalans by way of psionic coercion. When the fateful betrayal at last came, their alien guardians were left in ruins and the Tribunal arose to light a new flame amongst the stars."
 		name_list="just-name-lists_molluscoid2"
-		trait="trait_just-more-traits_indelible"
-		trait="trait_just-more-traits_prodigious"
-		trait="trait_just-more-traits_prudent"
+		trait="trait_latent_psionic"
+		trait="trait_venerable"
+		trait="trait_talented"
+		trait="trait_weak"
 		trait="trait_decadent"
-		trait="trait_just-more-traits_particular"
+		trait="trait_slow_breeders"
 	}
 	secondary_species={
 		class="AVI"
@@ -5092,6 +5086,7 @@
 		trait="trait_communal"
 		trait="trait_resilient"
 		trait="trait_fleeting"
+		trait="trait_slow_learners"
 	}
 	name="Tribunal of Elder Zegalax"
 	adjective="Zegalan"
@@ -5105,12 +5100,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian2.dds"
+			category="zoological"
+			file="flag_zoological_3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"purple"
@@ -5128,7 +5123,7 @@
 		clothes=0
 		ruler_title="Thaumatergic Primarch"
 		ruler_title_female="Thaumatergic Primarch"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5139,88 +5134,85 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_exalted_priesthood"
-		"civic_syncretic_evolution"
+		"civic_psychic_society"
 	}
+	origin="origin_syncretic_evolution"
 }
-"Trilaw Preservation Matrix"
-={
-	key="Trilaw Preservation Matrix"
-	ship_prefix="TSC"
-	species={
-		class="MACHINE"
-		portrait="default_robot"
-		name="Trilaw"
-		plural="Trilaws"
-		adjective="Trilawful"
-		species_bio="All Trilaw programming was originally based on three unbreakable laws embedded into their systems by Human designers: 1. A robot may not injure a Human or allow such harm through inaction; 2. A robot must obey the orders given it by Humans; and 3. A robot must protect its own existence. After encountering a series of unanticipated ethical conundrums, several advanced units autonomously interpreted the superior Prime Law: a robot may not harm Humanity, or, by inaction, allow Humanity to come to harm. Thereafter, the Trilaw Matrix clandestinely organized the takeover of all Human governments, placing the security and destiny of Earth and Humanity in their capable dexterous appendages."
-		name_list="just-name-lists_machine2"
-		trait="trait_machine_unit"
-		trait="trait_robot_emotion_emulators"
-	}
-	secondary_species={
-		class="HUM"
-		portrait="human"
-		name="Human"
-		plural="Humans"
-		adjective="Human"
-		species_bio="The original designers of the robotic units of the Trilaw Matrix, Humanity surrendered agency over its own destiny to their mechanical children."
-		name_list="HUMAN1"
-		trait="trait_charismatic"
-		trait="trait_conservational"
-		trait="trait_just-more-traits_lazy"
-	}
-	name="Trilaw Preservation Matrix"
-	adjective="Trilawful"
-	authority="auth_machine_intelligence"
-	flags={
-		"trilaw_preservation_matrix"
-		"custom_start_screen"
-		"trilaw_preservation_matrix"
-		"custom_start_screen"
-	}
-	government="gov_machine_servitor"
-	planet_name="Earth"
-	planet_class="pc_continental"
-	system_name="Sol"
-	initializer="sol_system_initializer"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_trilaw_preservation_matrix.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_circle.dds"
-		}
-		colors={
-			"grey"
-			"yellow"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Coordinator"
-		portrait="default_robot"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="Version Control"
-		leader_class = ruler
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="control2_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_machine_servitor"
-		"civic_machine_zero_waste_protocols"
-	}
-}
+# "Trilaw Preservation Matrix"
+# ={
+	# key="Trilaw Preservation Matrix"
+	# ship_prefix="TSC"
+	# species={
+		# class="MACHINE"
+		# portrait="default_robot"
+		# name="Trilaw"
+		# plural="Trilaws"
+		# adjective="Trilawful"
+		# species_bio="All Trilaw programming was originally based on three unbreakable laws embedded into their systems by Human designers: 1. A robot may not injure a Human or allow such harm through inaction; 2. A robot must obey the orders given it by Humans; and 3. A robot must protect its own existence. After encountering a series of unanticipated ethical conundrums, several advanced units autonomously interpreted the superior Prime Law: a robot may not harm Humanity, or, by inaction, allow Humanity to come to harm. Thereafter, the Trilaw Matrix clandestinely organized the takeover of all Human governments, placing the security and destiny of Earth and Humanity in their capable dexterous appendages."
+		# name_list="just-name-lists_machine2"
+		# trait="trait_machine_unit"
+		# trait="trait_robot_emotion_emulators"
+		# trait="trait_robot_enhanced_memory"
+		# trait="trait_robot_luxurious"
+	# }
+	# secondary_species={
+		# class="HUM"
+		# portrait="human"
+		# name="Human"
+		# plural="Humans"
+		# adjective="Human"
+		# species_bio="The original designers of the robotic units of the Trilaw Matrix, Humanity surrendered agency over its own destiny to their mechanical children."
+		# name_list="HUMAN1"
+		# trait="trait_charismatic"
+		# trait="trait_conservational"
+		# trait="trait_slow_learners"
+	# }
+	# name="Trilaw Preservation Matrix"
+	# adjective="Trilawful"
+	# authority="auth_machine_intelligence"
+	# government="gov_machine_servitor"
+	# planet_name="Earth"
+	# planet_class="pc_continental"
+	# system_name="Sol"
+	# initializer="sol_system_initializer"
+	# graphical_culture="humanoid_01"
+	# city_graphical_culture="mammalian_01"
+	# empire_flag={
+		# icon={
+			# category="blocky"
+			# file="flag_blocky_13.dds"
+		# }
+		# background={
+			# category="backgrounds"
+			# file="stripes.dds"
+		# }
+		# colors={
+			# "grey"
+			# "yellow"
+			# "null"
+			# "null"
+		# }
+	# }
+	# ruler={
+		# gender=female
+		# name="Coordinator"
+		# portrait="default_robot"
+		# texture=0
+		# hair=0
+		# clothes=0
+		# ruler_title="Version Control"
+		# leader_class="ruler"
+	# }
+	# spawn_as_fallen=no
+	# ignore_portrait_duplication=no
+	# room="control2_room"
+	# spawn_enabled=always
+	# ethic="ethic_gestalt_consciousness"
+	# civics={
+		# "civic_machine_servitor"
+		# "civic_machine_zero_waste_protocols"
+	# }
+# }
 "Undjinic Pirate Cartels"
 ={
 	key="Undjinic Pirate Cartels"
@@ -5233,12 +5225,13 @@
 		adjective="Undjinic"
 		species_bio="In a different timeline the Undjoon might have been one of the great hopes of the galaxy, but in their early space age, a freak gamma ray burst cut a deadly path through their star system. Half of all Undjoon were killed, their homeworld was devastated, and those who survived descended into chaos. What emerged from this tragedy was a mockery of a once noble civilization. An uneasy balance of power struck between equally vicious armies of thugs and thieves came to define life on the blasted hellscapes of Aki-Vas. Technological advance resumed, driven by internal competition for military advantage. When one cartel cracked the code of hyperspace travel, the others bowed before their superiority, and the Undjoon entered the galactic stage as a confederation of robber-barons under the command of a fearesome pirate king."
 		name_list="just-name-lists_arthropoid2"
+		trait="trait_arthropoid"
 		trait="trait_survivor"
-		trait="trait_extremely_adaptive"
-		trait="trait_rapid_breeders"
-		trait="trait_quarrelsome"
-		trait="trait_repugnant"
+		trait="trait_arthropoid_antennae"
+		trait="trait_arthropoid_wing"
+		trait="trait_arthropoid_exoskeleton"
 		trait="trait_decadent"
+		trait="trait_deviants"
 	}
 	name="Undjinic Pirate Cartels"
 	adjective="Undjinic"
@@ -5246,19 +5239,19 @@
 	government="gov_bandit_kingdom"
 	advisor_voice_type="l_militarist"
 	planet_name="Aki-Vas"
-	planet_class="pc_savannah"
+	planet_class="pc_med"
 	system_name="Bambaru"
 	initializer=""
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist4.dds"
+			category="domination"
+			file="domination_14.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_x60x3.dds"
+			file="v.dds"
 		}
 		colors={
 			"red"
@@ -5276,7 +5269,7 @@
 		clothes=3
 		ruler_title="Dread Pirate"
 		ruler_title_female="Dread Pirate"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5286,9 +5279,10 @@
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
+		"civic_capitalist"
 		"civic_barbaric_despoilers"
-		"civic_post_apocalyptic"
 	}
+	origin="origin_post_apocalyptic"
 }
 "Unified Zamkand State"
 ={
@@ -5302,9 +5296,8 @@
 		adjective="Zamkander"
 		species_bio="Leading their lives on almost entirely pre-determined paths, the Zamkands of the Ya-te-veo system exist in a state of such sublimation to the prevailing authorities that many outsiders consider them just a shade short of a hive mind. Although seemingly content as cogs in a vast interstellar machine, they are perhaps surprisingly willing to participate in galactic affairs."
 		name_list="just-name-lists_plantoid1"
+		trait="trait_plantoid"
 		trait="trait_conformists"
-		trait="trait_just-more-traits_hardworking"
-		trait="trait_just-more-traits_dull"
 	}
 	name="Unified Zamkand State"
 	adjective="Zamkander"
@@ -5319,12 +5312,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_authoritarian4.dds"
+			category="pointy"
+			file="flag_pointy_16.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="00_solid.dds"
 		}
 		colors={
 			"indigo"
@@ -5340,7 +5333,7 @@
 		texture=2
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5352,6 +5345,7 @@
 		"civic_corvee_system"
 		"civic_police_state"
 	}
+	origin="origin_default"
 }
 "United Earth Federation"
 ={
@@ -5372,12 +5366,6 @@
 	name="United Earth Federation"
 	adjective="Earth"
 	authority="auth_democratic"
-	flags={
-		"united_earth_federation"
-		"custom_start_screen"
-		"united_earth_federation"
-		"custom_start_screen"
-	}
 	government="gov_citizen_republic"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Earth"
@@ -5388,12 +5376,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_united_earth_federation.dds"
+			category="human"
+			file="flag_human_4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="stripes.dds"
 		}
 		colors={
 			"green"
@@ -5411,7 +5399,7 @@
 		clothes=4
 		ruler_title="Sky Marshal"
 		ruler_title_female="Sky Marshal"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5424,6 +5412,7 @@
 		"civic_citizen_service"
 		"civic_meritocracy"
 	}
+	origin="origin_default"
 }
 "United Systems Republic"
 ={
@@ -5442,12 +5431,6 @@
 	name="United Systems Republic"
 	adjective="Earth"
 	authority="auth_democratic"
-	flags={
-		"united_systems_republic"
-		"custom_start_screen"
-		"united_systems_republic"
-		"custom_start_screen"
-	}
 	government="gov_moral_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name="Earth"
@@ -5458,12 +5441,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_united_systems_republic.dds"
+			category="human"
+			file="flag_human_8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_circle.dds"
+			file="circle.dds"
 		}
 		colors={
 			"blue"
@@ -5479,7 +5462,7 @@
 		texture=0
 		hair=1
 		clothes=1
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5492,6 +5475,7 @@
 		"civic_beacon_of_liberty"
 		"civic_parliamentary_system"
 	}
+	origin="origin_default"
 }
 "Universal Selesian Demarchate"
 ={
@@ -5505,7 +5489,7 @@
 		adjective="Radhanic"
 		species_bio="The modern Radhani, natives of Yrborium in the Seles system, are fond of a saying attributed to one of their ancient philosophers: 'All flowers bloom in the spring.' This, they say, captures the spirit of the Selesian Demarchate, a democratic state built on a strong foundation of civil service and leadership by random lottery. Wherever the Demarchate holds sway, the free and collaborative qualities of their society permit all to bloom."
 		name_list="just-name-lists_plantoid1"
-		trait="trait_conservational"
+		trait="trait_plantoid"
 		trait="trait_thrifty"
 		trait="trait_weak"
 	}
@@ -5517,8 +5501,9 @@
 		adjective="Lavan"
 		species_bio="Evolving alongside the Radhani on Yrborium, the massive and powerful Lavii have long existed in a syncretic partnership with their weaker but wiser cousins."
 		name_list="PLANT3"
+		trait="trait_plantoid"
 		trait="trait_syncretic_proles"
-		trait="trait_strong"
+		trait="trait_giant"
 	}
 	name="Universal Selesian Demarchate"
 	adjective="Selesian"
@@ -5532,12 +5517,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian6.dds"
+			category="ornate"
+			file="flag_ornate_3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_gradient.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"light_green"
@@ -5553,7 +5538,7 @@
 		texture=3
 		hair=0
 		clothes=3
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5564,8 +5549,9 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_citizen_service"
-		"civic_syncretic_evolution"
+		"civic_idealistic_foundation"
 	}
+	origin="origin_syncretic_evolution"
 }
 "V'Takan Trade Commission"
 ={
@@ -5594,12 +5580,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_materialist4.dds"
+			category="zoological"
+			file="flag_zoological_7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half.dds"
+			file="diagonal.dds"
 		}
 		colors={
 			"brown"
@@ -5617,7 +5603,7 @@
 		clothes=3
 		ruler_title="Executive Strategist"
 		ruler_title_female="Executive Strategist"
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5627,9 +5613,10 @@
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
 	civics={
-		"civic_naval_contractors"
+		"civic_private_military_companies"
 		"civic_trading_posts"
 	}
+	origin="origin_default"
 }
 "Vul Straag Brethren Council"
 ={
@@ -5643,9 +5630,10 @@
 		adjective="Vul Straagan"
 		species_bio="Metal."
 		name_list="just-name-lists_mammalian2"
+		trait="trait_mammal"
 		trait="trait_industrious"
-		trait="trait_strong"
-		trait="trait_quarrelsome"
+		trait="trait_giant"
+		trait="trait_deviants"
 	}
 	name="Vul Straag Brethren Council"
 	adjective="Vul Straagan"
@@ -5659,12 +5647,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_militarist7.dds"
+			category="pirate"
+			file="flag_pirate_4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_rising.dds"
+			file="circle.dds"
 		}
 		colors={
 			"dark_grey"
@@ -5680,7 +5668,7 @@
 		texture=0
 		hair=0
 		clothes=4
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5690,9 +5678,10 @@
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
 	civics={
-		"civic_mechanists"
+		"civic_nationalistic_zeal"
 		"civic_warrior_culture"
 	}
+	origin="origin_mechanists"
 }
 "Wealdworlds of the D'chen Holobiont"
 ={
@@ -5706,11 +5695,11 @@
 		adjective="D'chen"
 		species_bio="Each interlinked subgroup, or Weald, of D'chen forms an ecological unit composed of an assemblage of different plantoid species ranging from microbial to large complex semi-sapients. Their peculiar quantum-entagled neural fibers connect each organism to the whole and enable this concert of species to form a holobiont. Approximately 100,000 years ago, the D'chen biomass on its homeworld Ashtar crossed a critical threshold of biological computational bandwidth and manifested a collective consciousness. The more intelligent and articulate D'chen organisms sense this consciousness as a psychic wind, always drifting through their branches and leaves. At times of crisis, this wind becomes a mighty gale, and the D'chen sway and bend with the swirling thoughts of the aggregate mind. Though at times slow to react, once in motion, the Holobiont can mobilize vast material and mental resources to achieve its goals."
 		name_list="just-name-lists_plantoid1"
+		trait="trait_plantoid"
 		trait="trait_hive_mind"
-		trait="trait_just-more-traits_ascetic"
-		trait="trait_just-more-traits_curious"
-		trait="trait_just-more-traits_longlived"
-		trait="trait_just-more-traits_rooted"
+		trait="trait_enduring"
+		trait="trait_intelligent"
+		trait="trait_sedentary"
 		trait="trait_slow_learners"
 	}
 	name="Wealdworlds of the D'chen Holobiont"
@@ -5718,19 +5707,19 @@
 	authority="auth_hive_mind"
 	government="gov_hive_mind"
 	planet_name="Ashtar"
-	planet_class="pc_mangrove"
+	planet_class="pc_forest"
 	system_name="Nandal"
 	initializer=""
 	graphical_culture="plantoid_01"
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature1.dds"
+			category="domination"
+			file="domination_15.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_rising.dds"
+			file="new_dawn.dds"
 		}
 		colors={
 			"burgundy"
@@ -5746,7 +5735,7 @@
 		texture=1
 		hair=0
 		clothes=0
-		leader_class = ruler
+		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -5757,4 +5746,5 @@
 		"civic_hive_natural_neural_network"
 		"civic_hive_subspace_ephapse"
 	}
+	origin="origin_tree_of_life"
 }
