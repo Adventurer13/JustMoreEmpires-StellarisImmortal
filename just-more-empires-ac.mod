@@ -1,5 +1,5 @@
 name="Just More Empires (Achievement Compatible)"
-archive="just-more-empires-ac.zip"
+archive="just-more-empires-ac"
 tags={
 	"Achievement"
 	"Galaxy Generation"
