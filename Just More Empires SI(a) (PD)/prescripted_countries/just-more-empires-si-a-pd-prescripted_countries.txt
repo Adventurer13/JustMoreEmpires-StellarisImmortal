@@ -398,7 +398,7 @@
 		species_bio="The Guaturans were on a path toward self-destruction as cycles of hegemonic nationalism played out in their industrial and atomic eras. Their exceptionally rapid development of information technology, aided by primitive AIs, ushered in a revolution and saved the species. Embracing techno-anarchism, the Guaturans entered an enduring period of post-scarcity managed by a distributed decision network called the Consensus. In the Consensus, every individual's life is made easier by the assistance of a range of robotic appliances, and society and culture thrive on the hyperspeed communication links accessed by all citizens via cranial implants. Decisions of the central government are entirely based on FTL polling aggregation, with the Chancellor and other officials serving primarily as technicians who ensure the security of the underlying technology."
 		name_list="just-name-lists_humanoid6"
 		trait="trait_mammal"
-		trait="trait_innovative"
+		trait="trait_docile"
 		trait="trait_quick_learners"
 		trait="trait_decadent"
 	}
@@ -679,8 +679,7 @@
 		trait="trait_enduring"
 		trait="trait_resilient"
 		trait="trait_strong"
-		trait="trait_deviants"
-		trait="trait_wasteful"
+		trait="trait_unruly"
 	}
 	name="Council of Veklaran Great Houses"
 	adjective="Veklaran"
@@ -792,6 +791,7 @@
 		# "civic_machine_terminator"
 		# "civic_machine_warbots"
 	# }
+	# origin="origin_default"
 # }
 "Democratic People's Republic of Earth"
 ={
@@ -807,8 +807,8 @@
 		name_list="just-name-lists_human5"
 		trait="trait_adaptive"
 		trait="trait_charismatic"
+		trait="trait_unruly"
 		trait="trait_wasteful"
-		trait="trait_deviants"
 	}
 	name="Democratic People's Republic of Earth"
 	adjective="Earth"
@@ -855,10 +855,10 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	civics={
-		"civic_idealistic_foundation"
+		"civic_police_state"
 		"civic_shadow_council"
 	}
-	origin="origin_default"
+	origin="origin_hegemon"
 }
 "Deneb Star Corps"
 ={
@@ -923,7 +923,7 @@
 		"civic_citizen_service"
 		"civic_warrior_culture"
 	}
-	origin="origin_default"
+	origin="origin_lost_colony"
 }
 "Diranic Imperial Schemata"
 ={
@@ -938,8 +938,8 @@
 		species_bio="The enigmatic Polymaths, purportedly a hyper-intelligent race of Dirans constituting only 0.01% of their population, rule the Schemata from a vast imperial complex on their homeworld Dagama. Under their leadership, Diranic society has never been afraid to press into new fields of discovery regardless of the moral or ethical implications. Experimentation is celebrated and progress is practically worshipped. Nothing is valued more highly in their empire than novel information and bold innovations."
 		name_list="just-name-lists_humanoid9"
 		trait="trait_reptile"
+		trait="trait_enduring"
 		trait="trait_intelligent"
-		trait="trait_natural_engineers"
 		trait="trait_natural_physicists"
 		trait="trait_solitary"
 	}
@@ -1199,7 +1199,7 @@
 		name_list="just-name-lists_mammalian4"
 		trait="trait_mammal"
 		trait="trait_industrious"
-		trait="trait_furry"
+		trait="trait_nomadic"
 		trait="trait_solitary"
 	}
 	name="Eldagan Oathsworn"
@@ -1265,9 +1265,8 @@
 		trait="trait_reptile"
 		trait="trait_adaptive"
 		trait="trait_agrarian"
-		trait="trait_giant"
+		trait="trait_fleeting"
 		trait="trait_sedentary"
-		trait="trait_solitary"
 	}
 	name="Eleemosynary Conclave of Idaan"
 	adjective="Idaanic"
@@ -1316,7 +1315,7 @@
 		"civic_agrarian_idyll"
 		"civic_exalted_priesthood"
 	}
-	origin="origin_default"
+	origin="origin_shoulders_of_giants"
 }
 "Enlightened Ralahr Hegemony"
 ={
@@ -1333,7 +1332,7 @@
 		trait="trait_mammal"
 		trait="trait_natural_philosopher"
 		trait="trait_furry"
-		trait="trait_decadent"
+		trait="trait_slow_breeders"
 	}
 	name="Enlightened Ralahr Hegemony"
 	adjective="Ralahran"
@@ -1601,9 +1600,11 @@
 		adjective="Exlari"
 		species_bio="The Syndicate is hiring. The Syndicate is always hiring... and firing. Relying on an economy that takes the concept of contract labor to an extreme, if one looks only at its ever fluctuating employee rolls, the Exlari Syndicate is barely a coherent organization. The contracts, however, just keep coming and not only for big jobs like building a starship. Even a task as simple as cleaning a specific waste recepticle is treated as a unique work contract. This form of mercenary enterprise tapped the enormous potential of the Exlari workforce on their homeworld Jralad and may yet carry their species to interstellar fortune."
 		name_list="just-name-lists_humanoid10"
+		trait="trait_adaptive"
 		trait="trait_thrifty"
 		trait="trait_strong"
 		trait="trait_deviants"
+		trait="trait_unruly"
 	}
 	name="Exlari Development Syndicate"
 	adjective="Exlari"
@@ -1845,6 +1846,7 @@
 		# "civic_machine_builder"
 		# "civic_machine_rockbreakers"
 	# }
+	# origin="origin_default"
 # }
 "Galtanian Unistatic Regime"
 ={
@@ -1863,7 +1865,7 @@
 		trait="trait_quick_learners"
 		trait="trait_talented"
 		trait="trait_decadent"
-		trait="trait_solitary"
+		trait="trait_unruly"
 	}
 	name="Galtanian Unistatic Regime"
 	adjective="Galtanian"
@@ -2257,8 +2259,9 @@
 		# species_bio="What happens when an eccentric hyper-rich industrialist builds an artificially intelligent quantum network to assist with complex research tasks? You get a machine consciousness with a really sarcastic sense of humor. Whatever became of its creator or creators, the Hypermind Nexus does not know, but then again if it did it would probably be disappointed."
 		# name_list="just-name-lists_machine2"
 		# trait="trait_machine_unit"
+		# trait="trait_robot_efficient_processors"
 		# trait="trait_robot_logic_engines"
-		# trait="trait_robot_learning_algorithms"
+		# trait="trait_robot_high_bandwidth"
 		# trait="trait_robot_luxurious"
 	# }
 	# name="Hypermentronic Reticulation"
@@ -2305,6 +2308,7 @@
 		# "civic_machine_introspective"
 		# "civic_machine_predictive_analysis"
 	# }
+	# origin="origin_default"
 # }
 "Imperial Mongathi Legions"
 ={
@@ -2319,8 +2323,10 @@
 		species_bio="The frigid tundras of the planet Mongath are the ancestral home of the Gerals, a species of stolid warriors who look down on almost every other sentient being, even their own kin. Weakness is shameful, but demonstrating too much strength is also shameful as it causes one's opponents to lose face. They'll even look down on themselves if they can. Those in a shame debt can only recover their honor through a period of indenture. Misery loves company, however. The Mongathi Royal Family controls their vast empire by way of the Imperial Legions. Taking the Legionnaire's oath of loyalty is one of the few life choices that nearly all Gerals admire."
 		name_list="just-name-lists_humanoid6"
 		trait="trait_conformists"
+		trait="trait_enduring"
 		trait="trait_strong"
 		trait="trait_decadent"
+		trait="trait_solitary"
 	}
 	name="Imperial Mongathi Legions"
 	adjective="Mongathi"
@@ -2443,7 +2449,9 @@
 		adjective="Ghexoid"
 		species_bio="Having emerged on a planet defined by vast seas that isolated pockets of dry resources, Ghexoid society naturally revolves around business and long-range trade. Tribal and familial alliances traditionally controlled the various regions and market sectors, and the Interstellar Age is no different. Individual family enclaves follow their own internal models of administration. Nearly all, however, recognize the fundamental value of personal liberty and free enterprise. What passes for a planetary government on their homeworld Teiso is the Marketplace. First conceived in the Ghexoid Machine Age, the Marketplace formalized and updated numerous conventional rules regarding the fair conduct of commerce (and the perpetual practice of espionage that underlies it). Consensus on Marketplace policy is achieved via plebiscite with a franchise that extends to all adult citizens."
 		name_list="just-name-lists_molluscoid3"
+		trait="trait_nomadic"
 		trait="trait_thrifty"
+		trait="trait_unruly"
 	}
 	name="Janagman Anocratic Marketplace"
 	adjective="Janagman"
@@ -2577,7 +2585,7 @@
 	name="Kamak Union Star Command"
 	adjective="Kamaki"
 	authority="auth_democratic"
-	government="gov_citizen_republic"
+	government="gov_military_commissariat"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Kamak"
 	planet_class="pc_med"
@@ -2750,7 +2758,7 @@
 		"civic_indentured_assets"
 		"civic_ruthless_competition"
 	}
-	origin="origin_default"
+	origin="origin_lost_colony"
 }
 "Lithine Continuity Alliance"
 ={
@@ -2813,7 +2821,7 @@
 		"civic_fanatic_purifiers"
 		"civic_shadow_council"
 	}
-	origin="origin_default"
+	origin="origin_doomsday"
 }
 "Maaktese Primarchate"
 ={
@@ -3095,6 +3103,7 @@
 		# "civic_machine_factory_overclock"
 		# "civic_machine_servitor"
 	# }
+	# origin="origin_default"
 # }
 "Memetic Circuit of Sensulatu"
 ={
@@ -3299,6 +3308,7 @@
 		# "civic_machine_delegated_functions"
 		# "civic_machine_replication"
 	# }
+	# origin="origin_default"
 # }
 # "Nexine Adaptive Unicortex"
 # ={
@@ -3371,6 +3381,7 @@
 		# "civic_machine_assimilator"
 		# "civic_machine_ota_updates"
 	# }
+	# origin="origin_machine"
 # }
 "Order of Azrael's Chosen"
 ={
@@ -3439,7 +3450,7 @@
 		"civic_criminal_heritage"
 		"civic_gospel_of_the_masses"
 	}
-	origin="origin_default"
+	origin="origin_galactic_doorstep"
 }
 "Phlogistonic Mandate of Silrith"
 ={
@@ -3456,7 +3467,7 @@
 		trait="trait_reptile"
 		trait="trait_quick_learners"
 		trait="trait_venerable"
-		trait="trait_nonadaptive"
+		trait="trait_sedentary"
 		trait="trait_slow_breeders"
 		trait="trait_solitary"
 	}
@@ -3711,6 +3722,7 @@
 		# "civic_machine_delegated_functions"
 		# "civic_machine_warbots"
 	# }
+	# origin="origin_default"
 # }
 "Raathi Stellar Ascendancy"
 ={
@@ -3780,7 +3792,7 @@
 		"civic_aristocratic_elite"
 		"civic_distinguished_admiralty"
 	}
-	origin="origin_default"
+	origin="origin_hegemon"
 }
 "Radiant Ororian Hierarchy"
 ={
@@ -3865,8 +3877,8 @@
 	}
 	name="Revolutionary Union of Sol"
 	adjective="Solar"
-	authority="auth_democratic"
-	government="gov_communal_parity"
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
 	planet_name="Zemlya"
 	planet_class="pc_continental"
 	system_name="Sol"
@@ -3906,8 +3918,8 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
 	civics={
+		"civic_byzantine_bureaucracy"
 		"civic_meritocracy"
-		"civic_shared_burden"
 	}
 	origin="origin_default"
 }
@@ -3971,7 +3983,7 @@
 		"civic_imperial_cult"
 		"civic_police_state"
 	}
-	origin="origin_default"
+	origin="origin_immortal"
 }
 "Ryzon Stigmergic Commonwealth"
 ={
@@ -3987,7 +3999,7 @@
 		name_list="just-name-lists_avian4"
 		trait="trait_communal"
 		trait="trait_conservational"
-		trait="trait_deviants"
+		trait="trait_unruly"
 	}
 	name="Ryzon Stigmergic Commonwealth"
 	adjective="Ryzon"
@@ -4121,6 +4133,7 @@
 		adjective="Ta'lulan"
 		species_bio="A civilization ruled by a council of stoics and guided by dialectic principles, the Quora of the Ta'lulans of Senzar represents a species that seeks primarily to understand the nature of the physical universe. Exceptionally long-lived, individual Ta'lulans usually go through several distinct decades-long phases of life, including periods of extended isolation during which they hone their meditative practices. Another peculiar element of their biology is a years-long reproductive cycle. Though abhoring the use of violence to achieve their ends, if provoked, one should expect the Ta'lulans to bring cutting edge tech to bear against their enemies."
 		name_list="just-name-lists_humanoid5"
+		trait="trait_natural_physicists"
 		trait="trait_venerable"
 		trait="trait_sedentary"
 		trait="trait_slow_breeders"
@@ -4244,8 +4257,8 @@
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_pacifist"
 	civics={
-		"civic_pacifist"
 		"civic_functional_architecture"
+		"civic_pacifist"
 	}
 	origin="origin_syncretic_evolution"
 }
@@ -4268,7 +4281,7 @@
 	name="Settakian Providential Stars"
 	adjective="Settakian"
 	authority="auth_imperial"
-	government="gov_enlightened_monarchy"
+	government="gov_celestial_empire"
 	planet_name="Gluggnal"
 	planet_class="pc_desertislands"
 	system_name="Daggimga"
@@ -4304,8 +4317,9 @@
 	ignore_portrait_duplication=no
 	room="throne3_room"
 	spawn_enabled=always
+	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_spiritualist"
 	civics={
 		"civic_inwards_perfection"
 		"civic_philosopher_king"
@@ -4532,10 +4546,8 @@
 		name_list="just-name-lists_reptilian4"
 		trait="trait_reptile"
 		trait="trait_enduring"
-		trait="trait_giant"
 		trait="trait_thrifty"
 		trait="trait_decadent"
-		trait="trait_sedentary"
 	}
 	name="Surmeki Throne Worlds"
 	adjective="Mezakine"
@@ -4662,8 +4674,8 @@
 		trait="trait_nomadic"
 		trait="trait_resilient"
 		trait="trait_very_strong"
-		trait="trait_deviants"
 		trait="trait_mindless"
+		trait="trait_unruly"
 	}
 	name="Ten Triads of Great Zeizok"
 	adjective="Zeizoki"
@@ -4710,7 +4722,7 @@
 		"civic_barbaric_despoilers"
 		"civic_warrior_culture"
 	}
-	origin="origin_default"
+	origin="origin_scion"
 }
 "Terran Colonial Empire"
 ={
@@ -4874,7 +4886,7 @@
 		# name_list="HUMAN1"
 		# trait="trait_cybernetic"
 		# trait="trait_communal"
-		# trait="trait_conformists"
+		# trait="trait_docile"
 		# trait="trait_strong"
 		# trait="trait_repugnant"
 		# trait="trait_wasteful"
@@ -4923,6 +4935,7 @@
 		# "civic_machine_delegated_functions"
 		# "civic_machine_assimilator"
 	# }
+	# origin="origin_default"
 # }
 "Third Flowering of Zanfir"
 ={
@@ -5212,6 +5225,7 @@
 		# "civic_machine_servitor"
 		# "civic_machine_zero_waste_protocols"
 	# }
+	# origin="origin_default"
 # }
 "Undjinic Pirate Cartels"
 ={
@@ -5231,7 +5245,7 @@
 		trait="trait_arthropoid_wing"
 		trait="trait_arthropoid_exoskeleton"
 		trait="trait_decadent"
-		trait="trait_deviants"
+		trait="trait_unruly"
 	}
 	name="Undjinic Pirate Cartels"
 	adjective="Undjinic"
@@ -5631,9 +5645,10 @@
 		species_bio="Metal."
 		name_list="just-name-lists_mammalian2"
 		trait="trait_mammal"
+		trait="trait_void_dweller_1"
 		trait="trait_industrious"
 		trait="trait_giant"
-		trait="trait_deviants"
+		trait="trait_unruly"
 	}
 	name="Vul Straag Brethren Council"
 	adjective="Vul Straagan"
@@ -5642,7 +5657,7 @@
 	planet_name="Dezt"
 	planet_class="pc_tidallylocked"
 	system_name="Urloche"
-	initializer=""
+	initializer="void_dweller_system"
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -5681,7 +5696,7 @@
 		"civic_nationalistic_zeal"
 		"civic_warrior_culture"
 	}
-	origin="origin_mechanists"
+	origin="origin_void_dwellers"
 }
 "Wealdworlds of the D'chen Holobiont"
 ={
@@ -5700,7 +5715,6 @@
 		trait="trait_enduring"
 		trait="trait_intelligent"
 		trait="trait_sedentary"
-		trait="trait_slow_learners"
 	}
 	name="Wealdworlds of the D'chen Holobiont"
 	adjective="D'chen"
