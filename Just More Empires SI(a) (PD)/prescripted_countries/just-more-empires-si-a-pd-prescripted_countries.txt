@@ -5237,10 +5237,10 @@
 		name="Undjin"
 		plural="Undjoon"
 		adjective="Undjinic"
-		species_bio="In a different timeline the Undjoon might have been one of the great hopes of the galaxy, but in their early space age, a freak gamma ray burst cut a deadly path through their star system. Half of all Undjoon were killed, their homeworld was devastated, and those who survived descended into chaos. What emerged from this tragedy was a mockery of a once noble civilization. An uneasy balance of power struck between equally vicious armies of thugs and thieves came to define life on the blasted hellscapes of Aki-Vas. Technological advance resumed, driven by internal competition for military advantage. When one cartel cracked the code of hyperspace travel, the others bowed before their superiority, and the Undjoon entered the galactic stage as a confederation of robber-barons under the command of a fearesome pirate king."
+		species_bio="In a different timeline, the Undjoon might have been one of the great hopes of the galaxy, but in their early space age, a freak gamma-ray burst cut a deadly path through their star system. Half of all Undjoon were killed, their homeworld was devastated, and those who survived descended into chaos in a race off their homeworld. What emerged from this tragedy was a mockery of a once noble civilization. An uneasy balance of power struck between equally vicious armies of thugs and thieves came to define life on the blasted hellscapes. Technological advance resumed, driven by internal competition for military advantage and a habitable place to live. A few cartels built multiple habitats all over the Bambaru system. Over time inter-clan wars occurred where Undjoon would fight over who the habitats belonged to, even so far as destroying the habitats. After many years, they began using asteroids as an offensive weapon, which led to fewer habitats as well as the destruction of their by then abandoned homeworld. As generations passed, they adapted to living on habitats and the increasing void between them. When one cartel cracked the code of hyperspace travel, those that remained bowed before their superiority, and the Undjoon entered the galactic stage as a confederation of robber-barons under the command of a fearsome pirate king."
 		name_list="just-name-lists_arthropoid2"
 		trait="trait_arthropoid"
-		trait="trait_survivor"
+		trait="trait_void_dweller_1"
 		trait="trait_arthropoid_antennae"
 		trait="trait_arthropoid_wing"
 		trait="trait_arthropoid_exoskeleton"
@@ -5255,7 +5255,7 @@
 	planet_name="Aki-Vas"
 	planet_class="pc_med"
 	system_name="Bambaru"
-	initializer=""
+	initializer="void_dweller_system"
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
@@ -5296,7 +5296,7 @@
 		"civic_capitalist"
 		"civic_barbaric_despoilers"
 	}
-	origin="origin_post_apocalyptic"
+	origin="origin_void_dwellers"
 }
 "Unified Zamkand State"
 ={
@@ -5645,7 +5645,6 @@
 		species_bio="Metal."
 		name_list="just-name-lists_mammalian2"
 		trait="trait_mammal"
-		trait="trait_void_dweller_1"
 		trait="trait_industrious"
 		trait="trait_giant"
 		trait="trait_unruly"
@@ -5657,7 +5656,7 @@
 	planet_name="Dezt"
 	planet_class="pc_tidallylocked"
 	system_name="Urloche"
-	initializer="void_dweller_system"
+	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -5696,7 +5695,7 @@
 		"civic_nationalistic_zeal"
 		"civic_warrior_culture"
 	}
-	origin="origin_void_dwellers"
+	origin="origin_mechanists"
 }
 "Wealdworlds of the D'chen Holobiont"
 ={
