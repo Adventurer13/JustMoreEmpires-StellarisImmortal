@@ -1736,7 +1736,7 @@
 		trait="trait_mammal"
 		trait="trait_charismatic"
 		trait="trait_quick_learners"
-		trait="trait_sedentary"
+		trait="trait_nonadaptive"
 	}
 	name="Federated Tantai Republics"
 	adjective="Tantai"
@@ -1784,7 +1784,7 @@
 		"civic_parliamentary_system"
 		"civic_shadow_council"
 	}
-	origin="origin_default"
+	origin="origin_common_ground"
 }
 # "Fytometic Resource Network"
 # ={
@@ -5517,7 +5517,7 @@
 		name_list="PLANT3"
 		trait="trait_plantoid"
 		trait="trait_syncretic_proles"
-		trait="trait_giant"
+		trait="trait_plantoid_thorned"
 	}
 	name="Universal Selesian Demarchate"
 	adjective="Selesian"
