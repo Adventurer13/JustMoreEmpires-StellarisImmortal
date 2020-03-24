@@ -8,7 +8,7 @@ Install by downloading the repository:
 
  - Chosse the branch(es) you want to use:
    - **[SI](https://github.com/Adventurer13/JustMoreEmpires-StellarisImmortal/tree/SI)**: Requires only the *[Stellaris Immortal](https://steamcommunity.com/sharedfiles/filedetails/?id=1891758612)* mod
-   - **[SI-DivRoom-JNL-PD](https://github.com/Adventurer13/JustMoreEmpires-StellarisImmortal/tree/SI-DivRoom-JNL-PD)**: Requires *[Stellaris Immortal](https://steamcommunity.com/sharedfiles/filedetails/?id=1891758612)*, *[Diverse Rooms](https://steamcommunity.com/workshop/filedetails/?id=902204956)*, *[Just Name Lists](https://steamcommunity.com/sharedfiles/filedetails/?id=1210945403)*, and *[Planetary Diversity](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835)* mods
+   - **[SI-DivRoom-JMF-JNL-PD](https://github.com/Adventurer13/JustMoreEmpires-StellarisImmortal/tree/SI-DivRoom-JMF-JNL-PD)**: Requires *[Stellaris Immortal](https://steamcommunity.com/sharedfiles/filedetails/?id=1891758612)*, *[Diverse Rooms](https://steamcommunity.com/workshop/filedetails/?id=902204956)*, *[Just More Flags](https://steamcommunity.com/sharedfiles/filedetails/?id=1395096076)*, *[Just Name Lists](https://steamcommunity.com/sharedfiles/filedetails/?id=1210945403)*, and *[Planetary Diversity](https://steamcommunity.com/sharedfiles/filedetails/?id=819148835)* mods
  - Download and extract into your `Paradox Interactive/Stellaris/mod` folder.
  - Enable a single version in launcher or mod manager.
  
