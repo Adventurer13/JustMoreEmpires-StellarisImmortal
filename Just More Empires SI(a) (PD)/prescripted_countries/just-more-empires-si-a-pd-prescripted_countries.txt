@@ -26,12 +26,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_12.dds"
+			category="just-more-flags"
+			file="flag_spiritualist6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"teal"
@@ -92,12 +92,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_16.dds"
+			category="just-more-flags"
+			file="flag_nature6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="triangle_split.dds"
+			file="fabric_half_black_circle.dds"
 		}
 		colors={
 			"dark_purple"
@@ -155,12 +155,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_5.dds"
+			category="just-more-flags"
+			file="flag_spiritualist10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_stripe_rotated.dds"
 		}
 		colors={
 			"light_orange"
@@ -221,12 +221,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_13.dds"
+			category="just-more-flags"
+			file="flag_mars2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_x90.dds"
 		}
 		colors={
 			"brown"
@@ -286,12 +286,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_18.dds"
+			category="just-more-flags"
+			file="flag_materialist1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="sinus.dds"
+			file="fabric_half_rotated.dds"
 		}
 		colors={
 			"pink"
@@ -350,12 +350,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_4.dds"
+			category="just-more-flags"
+			file="flag_spiritualist7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"orange"
@@ -414,12 +414,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_17.dds"
+			category="just-more-flags"
+			file="flag_egalitarian5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"yellow"
@@ -478,12 +478,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_14.dds"
+			category="just-more-flags"
+			file="flag_authoritarian1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"red"
@@ -559,12 +559,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="pirate"
-			file="flag_pirate_6.dds"
+			category="just-more-flags"
+			file="flag_egalitarian7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="double_hemispheres.dds"
+			file="fabric_half_rotated.dds"
 		}
 		colors={
 			"dark_teal"
@@ -627,12 +627,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_11.dds"
+			category="just-more-flags"
+			file="flag_egalitarian4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="fabric_ring.dds"
 		}
 		colors={
 			"light_green"
@@ -693,12 +693,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_23.dds"
+			category="just-more-flags"
+			file="flag_militarist1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="v.dds"
+			file="fabric_stripes_rotated.dds"
 		}
 		colors={
 			"dark_grey"
@@ -759,12 +759,12 @@
 	# city_graphical_culture="arthropoid_01"
 	# empire_flag={
 		# icon={
-			# category="blocky"
-			# file="flag_blocky_1.dds"
+			# category="just-more-flags"
+			# file="flag_machine4.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="stripe.dds"
+			# file="fabric_circle.dds"
 		# }
 		# colors={
 			# "black"
@@ -822,12 +822,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_14.dds"
+			category="just-more-flags"
+			file="flag_democratic_peoples_republic_of_earth.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_stripe_negative_rotated.dds"
 		}
 		colors={
 			"red"
@@ -888,12 +888,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_17.dds"
+			category="just-more-flags"
+			file="flag_deneb_star_corps.dds"
 		}
 		background={
 			category="backgrounds"
-			file="pattern_01.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"dark_grey"
@@ -955,12 +955,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_2.dds"
+			category="just-more-flags"
+			file="flag_materialist3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="double_hemispheres.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"yellow"
@@ -1017,12 +1017,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_7.dds"
+			category="just-more-flags"
+			file="flag_divine_terran_crusade.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_x60x3.dds"
 		}
 		colors={
 			"dark_grey"
@@ -1083,12 +1083,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_2.dds"
+			category="just-more-flags"
+			file="flag_nature11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_ring.dds"
 		}
 		colors={
 			"light_blue"
@@ -1150,12 +1150,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_9.dds"
+			category="just-more-flags"
+			file="flag_united_nations.dds"
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="fabric.dds"
 		}
 		colors={
 			"light_blue"
@@ -1214,12 +1214,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_24.dds"
+			category="just-more-flags"
+			file="flag_militarist8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_stripes_rotated.dds"
 		}
 		colors={
 			"light_blue"
@@ -1280,12 +1280,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_19.dds"
+			category="just-more-flags"
+			file="flag_spiritualist4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="horizontal_stripe.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"orange"
@@ -1346,12 +1346,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_14.dds"
+			category="just-more-flags"
+			file="flag_authoritarian7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_stripe.dds"
 		}
 		colors={
 			"orange"
@@ -1412,12 +1412,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_19.dds"
+			category="just-more-flags"
+			file="flag_nature7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_gradient.dds"
 		}
 		colors={
 			"dark_green"
@@ -1476,12 +1476,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_1.dds"
+			category="just-more-flags"
+			file="flag_nature2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"brown"
@@ -1553,12 +1553,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_10.dds"
+			category="just-more-flags"
+			file="flag_spiritualist8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"dark_green"
@@ -1618,12 +1618,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_8.dds"
+			category="just-more-flags"
+			file="flag_materialist2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="v.dds"
+			file="fabric_stripe_rotated.dds"
 		}
 		colors={
 			"dark_grey"
@@ -1682,12 +1682,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_6.dds"
+			category="just-more-flags"
+			file="flag_nature9.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripes.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"purple"
@@ -1750,12 +1750,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_12.dds"
+			category="just-more-flags"
+			file="flag_egalitarian2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_stripes_rotated.dds"
 		}
 		colors={
 			"light_orange"
@@ -1814,12 +1814,12 @@
 	# city_graphical_culture="plantoid_01"
 	# empire_flag={
 		# icon={
-			# category="blocky"
-			# file="flag_blocky_16.dds"
+			# category="just-more-flags"
+			# file="flag_machine2.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="triangle_split.dds"
+			# file="fabric_gradient.dds"
 		# }
 		# colors={
 			# "beige"
@@ -1879,12 +1879,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_14.dds"
+			category="just-more-flags"
+			file="flag_materialist5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_stripe_rotated.dds"
 		}
 		colors={
 			"dark_blue"
@@ -1943,12 +1943,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_1.dds"
+			category="just-more-flags"
+			file="flag_spiritualist9.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripes.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"dark_blue"
@@ -2009,12 +2009,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_5.dds"
+			category="just-more-flags"
+			file="flag_nature12.dds"
 		}
 		background={
 			category="backgrounds"
-			file="double_hemispheres.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"green"
@@ -2075,12 +2075,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_11.dds"
+			category="just-more-flags"
+			file="flag_egalitarian1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_ring.dds"
 		}
 		colors={
 			"turquoise"
@@ -2141,12 +2141,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_2.dds"
+			category="just-more-flags"
+			file="flag_human3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="fabric_x60x3.dds"
 		}
 		colors={
 			"red"
@@ -2210,12 +2210,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_23.dds"
+			category="just-more-flags"
+			file="flag_militarist10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="double_hemispheres.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"dark_brown"
@@ -2276,12 +2276,12 @@
 	# city_graphical_culture="mammalian_01"
 	# empire_flag={
 		# icon={
-			# category="spherical"
-			# file="flag_spherical_4.dds"
+			# category="just-more-flags"
+			# file="flag_machine5.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="circle.dds"
+			# file="fabric_ring.dds"
 		# }
 		# colors={
 			# "blue"
@@ -2340,12 +2340,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_19.dds"
+			category="just-more-flags"
+			file="flag_militarist3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_half.dds"
 		}
 		colors={
 			"burgundy"
@@ -2402,12 +2402,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_18.dds"
+			category="just-more-flags"
+			file="flag_purifier1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"black"
@@ -2465,12 +2465,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_21.dds"
+			category="just-more-flags"
+			file="flag_authoritarian11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_ring.dds"
 		}
 		colors={
 			"burgundy"
@@ -2531,12 +2531,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="pirate"
-			file="flag_pirate_9.dds"
+			category="just-more-flags"
+			file="flag_purifier3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"dark_grey"
@@ -2595,12 +2595,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_6.dds"
+			category="just-more-flags"
+			file="flag_militarist11.dds"
 		}
 		background={
 			category="backgrounds"
-			file="v.dds"
+			file="fabric_x60.dds"
 		}
 		colors={
 			"green"
@@ -2659,12 +2659,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_6.dds"
+			category="just-more-flags"
+			file="flag_militarist9.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripes.dds"
+			file="fabric_half_rotated.dds"
 		}
 		colors={
 			"light_blue"
@@ -2724,12 +2724,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_13.dds"
+			category="just-more-flags"
+			file="flag_liao_nishanti_stellar_industries.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_half_black_circle.dds"
 		}
 		colors={
 			"beige"
@@ -2788,12 +2788,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_16.dds"
+			category="just-more-flags"
+			file="flag_purifier4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"dark_purple"
@@ -2853,12 +2853,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_24.dds"
+			category="just-more-flags"
+			file="flag_spiritualist5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_spiral.dds"
 		}
 		colors={
 			"red"
@@ -2931,12 +2931,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_2.dds"
+			category="just-more-flags"
+			file="flag_nature5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="fabric_ring.dds"
 		}
 		colors={
 			"indigo"
@@ -2994,12 +2994,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_1.dds"
+			category="just-more-flags"
+			file="flag_materialist7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_x120.dds"
 		}
 		colors={
 			"orange"
@@ -3071,12 +3071,12 @@
 	# city_graphical_culture="mammalian_01"
 	# empire_flag={
 		# icon={
-			# category="blocky"
-			# file="flag_blocky_7.dds"
+			# category="just-more-flags"
+			# file="flag_machine1.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="double_hemispheres.dds"
+			# file="fabric_gradient.dds"
 		# }
 		# colors={
 			# "dark_grey"
@@ -3133,12 +3133,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_16.dds"
+			category="just-more-flags"
+			file="flag_nature8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_gradient.dds"
 		}
 		colors={
 			"burgundy"
@@ -3212,12 +3212,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_8.dds"
+			category="just-more-flags"
+			file="flag_miranda2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="horizontal.dds"
+			file="fabric_half_rotated.dds"
 		}
 		colors={
 			"grey"
@@ -3276,12 +3276,12 @@
 	# city_graphical_culture="fungoid_01"
 	# empire_flag={
 		# icon={
-			# category="ornate"
-			# file="flag_ornate_7.dds"
+			# category="just-more-flags"
+			# file="flag_machine3.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="horizontal_stripe.dds"
+			# file="fabric_gradient.dds"
 		# }
 		# colors={
 			# "light_green"
@@ -3349,12 +3349,12 @@
 	# city_graphical_culture="humanoid_01"
 	# empire_flag={
 		# icon={
-			# category="spherical"
-			# file="flag_spherical_7.dds"
+			# category="just-more-flags"
+			# file="flag_machine6.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="circle.dds"
+			# file="fabric_circle.dds"
 		# }
 		# colors={
 			# "dark_grey"
@@ -3415,12 +3415,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_3.dds"
+			category="just-more-flags"
+			file="flag_nature10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_ring.dds"
 		}
 		colors={
 			"turquoise"
@@ -3494,12 +3494,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_22.dds"
+			category="just-more-flags"
+			file="flag_militarist2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"red"
@@ -3557,12 +3557,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_20.dds"
+			category="just-more-flags"
+			file="flag_materialist6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="sinus.dds"
+			file="fabric_x120.dds"
 		}
 		colors={
 			"light_green"
@@ -3622,12 +3622,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_5.dds"
+			category="just-more-flags"
+			file="flag_presidium_of_human_enlightenment.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"grey"
@@ -3690,12 +3690,12 @@
 	# city_graphical_culture="avian_01"
 	# empire_flag={
 		# icon={
-			# category="pointy"
-			# file="flag_pointy_14.dds"
+			# category="just-more-flags"
+			# file="flag_materialist9.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="vertical.dds"
+			# file="fabric_gradient.dds"
 		# }
 		# colors={
 			# "light_green"
@@ -3754,12 +3754,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_6.dds"
+			category="just-more-flags"
+			file="flag_authoritarian8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="v.dds"
+			file="fabric_rising.dds"
 		}
 		colors={
 			"green"
@@ -3823,12 +3823,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_17.dds"
+			category="just-more-flags"
+			file="flag_authoritarian3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_stripe_rotated.dds"
 		}
 		colors={
 			"dark_purple"
@@ -3887,12 +3887,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_12.dds"
+			category="just-more-flags"
+			file="flag_revolutionary_union_of_sol2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="fabric.dds"
 		}
 		colors={
 			"red"
@@ -3950,12 +3950,12 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_20.dds"
+			category="just-more-flags"
+			file="flag_authoritarian10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_x90.dds"
 		}
 		colors={
 			"light_orange"
@@ -4013,12 +4013,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_10.dds"
+			category="just-more-flags"
+			file="flag_egalitarian8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_stripe.dds"
 		}
 		colors={
 			"dark_blue"
@@ -4083,12 +4083,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="corporate"
-			file="corporate_02.dds"
+			category="just-more-flags"
+			file="flag_human1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_x120.dds"
 		}
 		colors={
 			"dark_green"
@@ -4151,12 +4151,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_9.dds"
+			category="just-more-flags"
+			file="flag_materialist8.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripe.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"red_orange"
@@ -4227,12 +4227,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_24.dds"
+			category="just-more-flags"
+			file="flag_nature3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_gradient.dds"
 		}
 		colors={
 			"dark_teal"
@@ -4290,12 +4290,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_20.dds"
+			category="just-more-flags"
+			file="flag_spiritualist3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_horizon.dds"
 		}
 		colors={
 			"dark_blue"
@@ -4354,12 +4354,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_21.dds"
+			category="just-more-flags"
+			file="flag_purifier2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_spiral.dds"
 		}
 		colors={
 			"burgundy"
@@ -4433,16 +4433,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_17.dds"
+			category="just-more-flags"
+			file="flag_spiritualist1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="pattern_01.dds"
+			file="fabric_stripes.dds"
 		}
 		colors={
-			"dark_purple"
 			"teal"
+			"light_green"
 			"null"
 			"null"
 		}
@@ -4497,12 +4497,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_11.dds"
+			category="just-more-flags"
+			file="flag_authoritarian6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="horizontal.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"purple"
@@ -4561,8 +4561,8 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_8.dds"
+			category="just-more-flags"
+			file="flag_authoritarian5.dds"
 		}
 		background={
 			category="backgrounds"
@@ -4624,12 +4624,12 @@
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="pirate"
-			file="flag_pirate_1.dds"
+			category="just-more-flags"
+			file="flag_tellusian_mindflower.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_half_black_circle.dds"
 		}
 		colors={
 			"burgundy"
@@ -4689,12 +4689,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="pirate"
-			file="flag_pirate_11.dds"
+			category="just-more-flags"
+			file="flag_militarist6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"green"
@@ -4756,12 +4756,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_22.dds"
+			category="just-more-flags"
+			file="flag_human2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="fabric_x60.dds"
 		}
 		colors={
 			"dark_blue"
@@ -4825,12 +4825,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_3.dds"
+			category="just-more-flags"
+			file="flag_terran_millennium_covenant.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"light_orange"
@@ -4903,12 +4903,12 @@
 	# city_graphical_culture="molluscoid_01"
 	# empire_flag={
 		# icon={
-			# category="human"
-			# file="flag_human_1.dds"
+			# category="just-more-flags"
+			# file="flag_tethysian_universal_cynosure.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="circle.dds"
+			# file="fabric_circle.dds"
 		# }
 		# colors={
 			# "dark_grey"
@@ -4966,12 +4966,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_18.dds"
+			category="just-more-flags"
+			file="flag_nature4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_gradient.dds"
 		}
 		colors={
 			"yellow"
@@ -5030,12 +5030,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="spherical"
-			file="flag_spherical_22.dds"
+			category="just-more-flags"
+			file="flag_egalitarian3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_x60x3.dds"
 		}
 		colors={
 			"light_blue"
@@ -5113,12 +5113,12 @@
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_3.dds"
+			category="just-more-flags"
+			file="flag_authoritarian2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"purple"
@@ -5192,12 +5192,12 @@
 	# city_graphical_culture="mammalian_01"
 	# empire_flag={
 		# icon={
-			# category="blocky"
-			# file="flag_blocky_13.dds"
+			# category="just-more-flags"
+			# file="flag_trilaw_preservation_matrix.dds"
 		# }
 		# background={
 			# category="backgrounds"
-			# file="stripes.dds"
+			# file="fabric_circle.dds"
 		# }
 		# colors={
 			# "grey"
@@ -5260,12 +5260,12 @@
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_14.dds"
+			category="just-more-flags"
+			file="flag_militarist4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="v.dds"
+			file="fabric_x60x3.dds"
 		}
 		colors={
 			"red"
@@ -5326,12 +5326,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_16.dds"
+			category="just-more-flags"
+			file="flag_authoritarian4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"indigo"
@@ -5390,12 +5390,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_4.dds"
+			category="just-more-flags"
+			file="flag_united_earth_federation.dds"
 		}
 		background={
 			category="backgrounds"
-			file="stripes.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"green"
@@ -5455,12 +5455,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="human"
-			file="flag_human_8.dds"
+			category="just-more-flags"
+			file="flag_united_systems_republic.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_circle.dds"
 		}
 		colors={
 			"blue"
@@ -5531,12 +5531,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_3.dds"
+			category="just-more-flags"
+			file="flag_egalitarian6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_gradient.dds"
 		}
 		colors={
 			"light_green"
@@ -5594,12 +5594,12 @@
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="zoological"
-			file="flag_zoological_7.dds"
+			category="just-more-flags"
+			file="flag_materialist4.dds"
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="fabric_half.dds"
 		}
 		colors={
 			"brown"
@@ -5661,12 +5661,12 @@
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="pirate"
-			file="flag_pirate_4.dds"
+			category="just-more-flags"
+			file="flag_militarist7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_rising.dds"
 		}
 		colors={
 			"dark_grey"
@@ -5727,12 +5727,12 @@
 	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_15.dds"
+			category="just-more-flags"
+			file="flag_nature1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="fabric_rising.dds"
 		}
 		colors={
 			"burgundy"
