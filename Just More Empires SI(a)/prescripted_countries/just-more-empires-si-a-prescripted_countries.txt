@@ -813,6 +813,7 @@
 	name="Democratic People's Republic of Earth"
 	adjective="Earth"
 	authority="auth_oligarchic"
+	flags={ democratic_peoples_republic_of_earth custom_start_screen }
 	government="gov_military_junta"
 	planet_name="Earth"
 	planet_class="pc_continental"
@@ -878,6 +879,7 @@
 	name="Deneb Star Corps"
 	adjective="Deneb"
 	authority="auth_oligarchic"
+	flags={ deneb_star_corps custom_start_screen }
 	government="gov_citizen_stratocracy"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Eurotas"
@@ -1008,6 +1010,7 @@
 	name="Divine Terran Crusade"
 	adjective="Terran"
 	authority="auth_imperial"
+	flags={ divine_terran_crusade custom_start_screen }
 	government="gov_blood_court"
 	planet_name="Holy Terra"
 	planet_class="pc_continental"
@@ -1140,6 +1143,7 @@
 	name="Earth Colonial Administration"
 	adjective="Earth"
 	authority="auth_democratic"
+	flags={ earth_colonial_administration custom_start_screen }
 	government="gov_representative_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name="Earth"
@@ -2132,6 +2136,7 @@
 	name="Holy See of Terra and Her Colonies"
 	adjective="Terran"
 	authority="auth_dictatorial"
+	flags={ holy_see_of_terra_and_her_colonies custom_start_screen }
 	government="gov_theocratic_dictatorship"
 	planet_name="Holy Terra"
 	planet_class="pc_continental"
@@ -2714,6 +2719,7 @@
 	name="Liao-Nishanti Stellar Industries"
 	adjective="Deneb"
 	authority="auth_corporate"
+	flags={ liao_nishanti_stellar_industries custom_start_screen }
 	government="gov_megacorporation"
 	advisor_voice_type="l_evil_corp"
 	planet_name="Pyrrho"
@@ -3203,6 +3209,7 @@
 	name="Mirandan Interstellar Directorate"
 	adjective="Mirandan"
 	authority="auth_oligarchic"
+	flags={ mirandan_interstellar_directorate custom_start_screen }
 	government="gov_executive_committee"
 	planet_name="Miranda"
 	planet_class="pc_continental"
@@ -3402,10 +3409,7 @@
 	name="Order of Azrael's Chosen"
 	adjective="Azraelite"
 	authority="auth_corporate"
-	flags={
-		"order_of_azraels_chosen"
-		"custom_start_screen"
-	}
+	flags={	order_of_azraels_chosen	custom_start_screen }
 	government="gov_subversive_cult"
 	planet_name="New Eden"
 	planet_class="pc_continental"
@@ -3612,6 +3616,7 @@
 	name="Presidium of Human Enlightenment"
 	adjective="Earth"
 	authority="auth_dictatorial"
+	flags={ presidium_of_human_enlightenment custom_start_screen }
 	government="gov_totalitarian_regime"
 	advisor_voice_type="l_the_technocrat"
 	planet_name="Earth"
@@ -3878,6 +3883,7 @@
 	name="Revolutionary Union of Sol"
 	adjective="Solar"
 	authority="auth_oligarchic"
+	flags={ revolutionary_union_of_sol custom_start_screen }
 	government="gov_executive_committee"
 	planet_name="Zemlya"
 	planet_class="pc_continental"
@@ -4069,10 +4075,7 @@
 	name="Sacred Commonwealth of Earth"
 	adjective="Earth"
 	authority="auth_democratic"
-	flags={
-		"sacred_commonwealth_of_earth"
-		"custom_start_screen"
-	}
+	flags={	sacred_commonwealth_of_earth custom_start_screen }
 	government="gov_theocratic_republic"
 	advisor_voice_type="l_pacifist"
 	planet_name="Earth"
@@ -4615,6 +4618,7 @@
 	name="Tellusian Mindflower"
 	adjective="Tellusian"
 	authority="auth_hive_mind"
+	flags={ tellusian_mindflower custom_start_screen }
 	government="gov_hive_mind"
 	planet_name="Tellus"
 	planet_class="pc_continental"
@@ -4743,10 +4747,7 @@
 	name="Terran Colonial Empire"
 	adjective="Terran"
 	authority="auth_imperial"
-	flags={
-		"terran_colonial_empire"
-		"custom_start_screen"
-	}
+	flags={	terran_colonial_empire custom_start_screen }
 	government="gov_feudal_empire"
 	planet_name="Terra"
 	planet_class="pc_continental"
@@ -4816,6 +4817,7 @@
 	name="Terran Millennium Covenant"
 	adjective="Terran"
 	authority="auth_oligarchic"
+	flags={ terran_millennium_covenant custom_start_screen }
 	government="gov_holy_tribunal"
 	planet_name="Old Earth"
 	planet_class="pc_continental"
@@ -4894,6 +4896,7 @@
 	# name="Tethysian Universal Cynosure"
 	# adjective="Tethysian"
 	# authority="auth_machine_intelligence"
+	# flags={ tethysian_universal_cynosure custom_start_screen }
 	# government="gov_machine_assimilator"
 	# planet_name="Tethys"
 	# planet_class="pc_ocean"
@@ -5183,6 +5186,7 @@
 	# name="Trilaw Preservation Matrix"
 	# adjective="Trilawful"
 	# authority="auth_machine_intelligence"
+	# flags={ trilaw_preservation_matrix custom_start_screen }
 	# government="gov_machine_servitor"
 	# planet_name="Earth"
 	# planet_class="pc_continental"
@@ -5380,6 +5384,7 @@
 	name="United Earth Federation"
 	adjective="Earth"
 	authority="auth_democratic"
+	flags={ united_earth_federation custom_start_screen }
 	government="gov_citizen_republic"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Earth"
@@ -5445,6 +5450,7 @@
 	name="United Systems Republic"
 	adjective="Earth"
 	authority="auth_democratic"
+	flags={ united_systems_republic custom_start_screen }
 	government="gov_moral_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name="Earth"
