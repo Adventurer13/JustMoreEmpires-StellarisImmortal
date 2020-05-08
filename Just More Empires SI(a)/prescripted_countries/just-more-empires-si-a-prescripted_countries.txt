@@ -588,7 +588,7 @@
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
+	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	civics={
@@ -659,8 +659,8 @@
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_xenophile"
 	civics={
-		"civic_functional_architecture"
 		"civic_merchant_guilds"
+		"civic_mining_guilds"
 	}
 	origin="origin_default"
 }
@@ -2500,8 +2500,8 @@
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
+		"civic_cutthroat_politics"
 		"civic_idealistic_foundation"
-		"civic_merchant_guilds"
 	}
 	origin="origin_default"
 }
