@@ -2500,8 +2500,8 @@
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_materialist"
 	civics={
+		"civic_cutthroat_politics"
 		"civic_idealistic_foundation"
-		"civic_merchant_guilds"
 	}
 	origin="origin_default"
 }
